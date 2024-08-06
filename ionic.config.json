@@ -1,0 +1,7 @@
+{
+  "name": "BiggBoss",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
