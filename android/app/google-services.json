@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "786263237715",
+    "firebase_url": "https://biggbosstelugu-b49b4-default-rtdb.firebaseio.com",
+    "project_id": "biggbosstelugu-b49b4",
+    "storage_bucket": "biggbosstelugu-b49b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786263237715:android:7099ef75e9559c535192a6",
+        "android_client_info": {
+          "package_name": "com.mrunknown.biggboss5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQSDX5UQxY94umDXNaOOHzAdHxPfILlnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786263237715:android:76e2393b0fa3bc605192a6",
+        "android_client_info": {
+          "package_name": "com.mrunknown.biggbossadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQSDX5UQxY94umDXNaOOHzAdHxPfILlnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786263237715:android:ef4e3fb9920e6ead5192a6",
+        "android_client_info": {
+          "package_name": "com.mrunknown.biggbossadmintelugu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQSDX5UQxY94umDXNaOOHzAdHxPfILlnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786263237715:android:a6d4f9654994ce025192a6",
+        "android_client_info": {
+          "package_name": "com.mrunknown.biggbosstelugu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQSDX5UQxY94umDXNaOOHzAdHxPfILlnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786263237715-ban5b88a75fbm5vm23a49dh8kv6ujsiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

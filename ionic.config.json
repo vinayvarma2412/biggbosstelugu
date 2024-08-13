@@ -1,7 +1,13 @@
 {
-  "name": "BiggBoss",
+  "name": "BiggBossTelugu",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "plugins": {
+        "PushNotifications": {
+          "presentationOptions": ["badge", "sound", "alert"]
+        }
+      }
+    }
   },
   "type": "angular"
 }

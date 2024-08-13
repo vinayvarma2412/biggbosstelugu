@@ -1,20 +1,100 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header *ngIf="connection" [translucent]="true">
+  <ion-toolbar class="header">
+    <img class="logo-icon" [src]="logoUrl" alt="Biggboss" />
+    <div class="d-flex align-items-center" slot="end">
+      <ion-toggle mode="ios" (ionChange)="onClick($event)" [(ngModel)]="mode"></ion-toggle>
+    </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="mainBody" *ngIf="connection" [fullscreen]="true">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <swiper-container *ngIf="contestantsSection1" [slidesPerView]="1" [loop]="true" autoplay="true">
+    <swiper-slide *ngFor="let contestant of contestantsData">
+      <ion-card class="sliderGrid">
+        <div class="imgCol">
+          <img class="slideImg" [src]="contestant.url" alt="" />
+        </div>
+        <div class="line"></div>
+        <div class="infoCol">
+          <div class="text divRelative">
+            <div class="hText">{{contestant.name}}</div>
+          </div>
+          <div class="text" [innerHtml]='contestant.desc'></div>
+          <div class="text divRelative">
+            <div class="dText">In Nominations : {{contestant.nominated}} Times</div>
+          </div>
+          <div class="text {{contestant.css}}">{{contestant.status}}</div>
+        </div>
+      </ion-card>
+    </swiper-slide>
+  </swiper-container>
+
+  <section *ngIf="liveSection" id="liveSection">
+    <a [href]="liveLink">
+      <img class="liveImg" src="assets/images/live.jpg" alt="">
+      <div class="liveText">
+        <div class="liveBlicker"></div>LIVE
+      </div>
+    </a>
+  </section>
+
+  <ion-card id="poll-box" *ngIf="pollingChartSection" class="poll-box">
+    <p class="title" id="title">
+      Week:{{week}} <br />
+      Vote for your favourate contestant
+    </p>
+    <div id="groupFields" *ngFor="let voter of votersData; let i= index">
+      <div id="{{'card'+i}}" (click)="selected(i)" class="fields names">
+        <img src="{{voter.imgUrl}}" (load)="onImageLoad(i)" class="voterImg" alt="loading.." />
+        <input class="names radio" type="radio" id="{{'Person'+i}}" name="fav_language" value="{{'Person'+i}}" />
+        <label id="{{'label'+i}}" class="names">{{voter.name}}</label>
+      </div>
+    </div>
+    <div (click)="voted()" id="voteBtn" class="vote">vote</div>
+    <div id="message">vote to check the top list</div>
+  </ion-card>
+
+  <div #chart id="chart" *ngIf="dashboardOperationsInfo && pollingSection">
+    <apx-chart [title]="chartOptions.title!" [series]="chartOptions.series!" [chart]="chartOptions.chart!"
+      [dataLabels]="chartOptions.dataLabels!" [plotOptions]="chartOptions.plotOptions!" [xaxis]="chartOptions.xaxis!"
+      [yaxis]="chartOptions.yaxis!" [fill]="chartOptions.fill!"></apx-chart>
   </div>
+  <div *ngIf="promosSection">
+    <h1 class="ytHeading">Latest Promos</h1>
+    <ion-card *ngFor="let promo of promos">
+      <ion-card-title class="iframeTitle">
+        <div class="hcs"><img class="megaphone" src="assets/icon/youtube.png" alt="">{{promo.title}}</div>
+      </ion-card-title>
+      <iframe class="iframe" width="100%" height="315" [src]="promo.url" title="YouTube video player" frameborder="0"
+      ></iframe>
+      <div (click)="openLink(promo.link)" class="vote">Open App</div>
+    </ion-card>
+  </div>
+
+  <div *ngIf="highlightsSection" class="highlights">
+    <h1 class="hHeading">Highlights</h1>
+    <ion-card *ngFor="let highlight of highlights">
+      <ion-card-title class="hTitle">
+        <div class="hcs"><img class="megaphone" src="assets/icon/megaphone.png" alt="">{{highlight.title}}</div>
+      </ion-card-title>
+      <img class="hImg" *ngIf="highlight.img" [src]="highlight.imgUrl" alt="ion" />
+      <ion-card-content [innerHtml]="highlight.desc"> </ion-card-content>
+    </ion-card>
+    <div (click)="moreHiglights()" id="highlightBtn" class="vote">More</div>
+  </div>
+
+  <ion-card class="disclaimer">
+    <ion-card-header>
+      <ion-card-title style="text-align: center">Disclaimer</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="text-align: center">
+      All the information and voting polls you see on our App is for
+      educational purpose and is meant to be a source of information for the
+      general audience.Thank you so much for using our App, I hope you
+      liked what you saw!
+    </ion-card-content>
+  </ion-card>
+  <div class="copyright">Designed with &#9829; by Mr Unknown</div>
+  <div *ngIf="isBannerAdLoaded" class="bannerAd"></div>
 </ion-content>
