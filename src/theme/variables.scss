@@ -126,6 +126,12 @@ body[data-theme="dark"] {
         border: 3px rgba(255, 255, 255, 0.737) solid;
         color: rgba(255, 255, 255, 0.737);
       }
+      .loader{
+        background-color: rgb(48, 48, 48) !important;
+        --background:#000000 !important;
+        --spinner-color:#ffffff;
+        box-shadow: none;
+      }
   }
   
   .ios ion-modal[data-theme="dark"] {

@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">BiggBoss</string>
     <string name="title_activity_main">BiggBoss</string>
-    <string name="package_name">com.mrunknown.biggbosstelugu</string>
-    <string name="custom_url_scheme">com.mrunknown.biggbosstelugu</string>
+    <string name="package_name">com.mrunknown.biggboss5</string>
+    <string name="custom_url_scheme">com.mrunknown.biggboss5</string>
     <string name="admob_app_id" translatable="false">ca-app-pub-9959591108553606~5777792598</string>
 </resources>

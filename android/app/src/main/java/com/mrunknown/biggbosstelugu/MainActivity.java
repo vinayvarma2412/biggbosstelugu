@@ -1,4 +1,4 @@
-package com.mrunknown.biggbosstelugu;
+package com.mrunknown.biggboss5;
 
 import com.getcapacitor.BridgeActivity;
 
