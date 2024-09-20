@@ -13,7 +13,7 @@
     <swiper-slide *ngFor="let contestant of contestantsData">
       <ion-card class="sliderGrid">
         <div class="imgCol">
-          <img class="slideImg" [src]="contestant.url" alt="" />
+          <img class="slideImg" [src]="contestant.imageUrl" alt="" />
         </div>
         <div class="line"></div>
         <div class="infoCol">
@@ -46,7 +46,7 @@
     </p>
     <div id="groupFields" *ngFor="let voter of votersData; let i= index">
       <div id="{{'card'+i}}" (click)="selected(i)" class="fields names">
-        <img src="{{voter.imgUrl}}" (load)="onImageLoad(i)" class="voterImg" alt="loading.." />
+        <img src="{{voter.imageUrl}}" (load)="onImageLoad(i)" class="voterImg" alt="loading.." />
         <input class="names radio" type="radio" id="{{'Person'+i}}" name="fav_language" value="{{'Person'+i}}" />
         <label id="{{'label'+i}}" class="names">{{voter.name}}</label>
       </div>
@@ -58,7 +58,9 @@
   <div #chart id="chart" *ngIf="dashboardOperationsInfo && pollingSection">
     <apx-chart [title]="chartOptions.title!" [series]="chartOptions.series!" [chart]="chartOptions.chart!"
       [dataLabels]="chartOptions.dataLabels!" [plotOptions]="chartOptions.plotOptions!" [xaxis]="chartOptions.xaxis!"
-      [yaxis]="chartOptions.yaxis!" [fill]="chartOptions.fill!"></apx-chart>
+      [yaxis]="chartOptions.yaxis!" [fill]="chartOptions.fill!">
+    </apx-chart>
+    <div (click)="share()" id="shareBtn" class="vote">Share</div>
   </div>
   <div *ngIf="promosSection">
     <h1 class="ytHeading">Latest Promos</h1>

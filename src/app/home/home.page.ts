@@ -3,9 +3,10 @@ import { Preferences } from '@capacitor/preferences';
 import { AlertController, IonicSafeString, LoadingController } from '@ionic/angular';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Network } from '@capacitor/network';
-import { AdMob, AdmobConsentStatus } from '@capacitor-community/admob';
+import { AdMob, AdmobConsentStatus, AdMobError } from '@capacitor-community/admob';
 import { BannerAdOptions, BannerAdSize, BannerAdPosition, BannerAdPluginEvents, AdMobBannerSize } from '@capacitor-community/admob';
 import { AdOptions, AdLoadInfo, InterstitialAdPluginEvents } from '@capacitor-community/admob';
+import { RewardAdOptions, RewardAdPluginEvents, AdMobRewardItem } from '@capacitor-community/admob';
 
 import { child, get, getDatabase, limitToLast, onValue, query, ref, set } from "firebase/database";
 
@@ -23,6 +24,7 @@ import {
 import { initializeApp } from 'firebase/app';
 import { PushNotifications } from '@capacitor/push-notifications';
 import { Capacitor } from '@capacitor/core';
+import { Share } from '@capacitor/share';
 
 export type ChartOptions = {
   title: ApexTitleSubtitle;
@@ -95,8 +97,9 @@ export class HomePage {
   promosSection: boolean = true;
   contestantsSection: boolean = false;
   pollingChartSection: boolean = false;
+  shareBtn: boolean = false;
 
-  version: number = 3;
+  version: number = 19;
   updateAlert!: Promise<HTMLIonAlertElement>;
   firstLoad: boolean = true;
   liveSection: boolean = true;
@@ -113,8 +116,13 @@ export class HomePage {
   contestantsSection1: boolean = false;
   isBannerAdLoaded: boolean = false;
   update_url: any;
+  shareMessage:any;
 
-  constructor(public loadingController: LoadingController, public domSanitizer: DomSanitizer, private alertCtrl: AlertController) {
+
+  constructor(
+    public loadingController: LoadingController,
+    public domSanitizer: DomSanitizer,
+    private alertCtrl: AlertController) {
     this.networkStatus();
   }
 
@@ -225,6 +233,7 @@ export class HomePage {
       this.highlightsSection = sectionControlls["highlightsSection"]
       this.liveSection = sectionControlls["liveSection"]
       this.pollingChartSection = sectionControlls["pollingChartSection"]
+      this.shareBtn = sectionControlls["shareBtn"]
 
       if (!this.pollingSection) {
         setTimeout(() => {
@@ -250,7 +259,24 @@ export class HomePage {
         this.getLiveUrl();
       }
 
+      if (this.shareBtn) {
+        this.getShareMessage();
+      }
+
       this.setupAds()
+    });
+  }
+
+  getShareMessage() {
+    const db = getDatabase();
+    const starCountRef = ref(db);
+    get(child(starCountRef, "appInfo/share")).then(async (snapshot) => {
+      if (snapshot.exists()) {
+        this.shareMessage = snapshot.val();
+        this.shareMessage['text'] = this.shareMessage['text'].replaceAll("\\n", "\n");
+      } else {
+      }
+    }).catch((error) => {
     });
   }
 
@@ -276,12 +302,6 @@ export class HomePage {
     else {
       this.showToast();
     }
-  }
-
-  getEmbededUrl(link: any){
-    let videoID = link.split('/').pop().split('?')[0];
-    let eUrl =  "https://www.youtube.com/embed/"+videoID
-    return this.domSanitizer.bypassSecurityTrustResourceUrl(eUrl)
   }
 
   openLink(link: any){
@@ -386,7 +406,7 @@ export class HomePage {
     this.loader = true;
     setTimeout(() => {
       if (this.loader) {
-        location.reload();
+        this.showToast()
       }
     }, 30000);
   }
@@ -398,6 +418,11 @@ export class HomePage {
     document.getElementById("voteBtn")!.innerHTML = "Voted"
     document.getElementById("message")!.innerHTML = "You have already voted for this week"
     this.scroll();
+    if(this.ads_control["reward_ad"]){
+      setTimeout(() => {
+        this.rewardVideo()
+      },1000)
+    }
   }
 
   async getPromos() {
@@ -408,11 +433,10 @@ export class HomePage {
       for (var i = promoData.length - 1; i >= 0; i--) {
         if (promoData[i] != undefined) {
           let url = promoData[i]["url"]
-          let embedUrl: any = this.getEmbededUrl(url)
-          this.promos[i] = { url: embedUrl, title: promoData[i]["title"], link: url};
+          let embedUrl: any = this.domSanitizer.bypassSecurityTrustResourceUrl(promoData[i]["eUrl"])
+          this.promos.push({ url: embedUrl, title: promoData[i]["title"], link: url});
         }
       }
-      this.promos.reverse()
     });
   }
 
@@ -426,8 +450,7 @@ export class HomePage {
           loop: true
         };
         let data = snapshot.val();
-        this.contestantsData[0] = data[0]
-        this.contestantsData[1] = data[1]
+        this.contestantsData = data
         if (this.contestantsSection) {
           this.contestantsSection1 = true
         }
@@ -457,8 +480,7 @@ export class HomePage {
         this.highlights[i] = this.highlightsData[i];
       }
       else {
-        document.getElementById("highlightBtn")!.style.border = "3px rgb(0 0 0 / 32%) solid"
-        document.getElementById("highlightBtn")!.style.color = "#00000075"
+        document.getElementById("highlightBtn")!.style.visibility = "hidden"
       }
     }
     this.highlightsLoaded = this.highlightsLoaded + 4;
@@ -507,7 +529,9 @@ export class HomePage {
         this.names = [];
         data.sort(function (a: any, b: any) { return b.votes - a.votes; });
         for (var i = 0; i < data.length; i++) {
-          this.votes.push(data[i]["votes"])
+          let manualVotes = data[i]["manualVotes"] ?? 0
+          let votes = data[i]["votes"] + manualVotes
+          this.votes.push(votes)
           this.names.push(data[i]["name"])
         }
         if (this.firstLoad) {
@@ -569,8 +593,10 @@ export class HomePage {
         this.alreadyVoted();
       }
       else {
-        this.loader = false;
-        this.loading.dismiss();
+        setTimeout(() => {
+          this.loader = false;
+          this.loading.dismiss();
+        },1000);
       }
     }
   }
@@ -595,13 +621,9 @@ export class HomePage {
   };
 
   createPollChart() {
-    if(this.ads_control["interitial_ad"]){
-      this.interstitial()
-    }
-
     this.chartOptions = {
       title: {
-        text: 'BiggBoss 6 Voting Results',
+        text: 'BiggBoss 8 Voting Results',
       },
       series: [{
         name: "votes",
@@ -637,6 +659,9 @@ export class HomePage {
         colors: ['rgb(48,71,88)']
       },
       xaxis: {
+        labels: {
+          show: false
+        },
         categories: this.names,
       },
       yaxis: {
@@ -651,6 +676,10 @@ export class HomePage {
       }
     };
     this.dashboardOperationsInfo = true;
+  }
+
+  async share(){
+    await Share.share(this.shareMessage);
   }
 
   async showConsent() {
@@ -695,6 +724,29 @@ export class HomePage {
       AdMob.showBanner(options);
   }
 
+  async rewardVideo(): Promise<void> {
+    AdMob.addListener(RewardAdPluginEvents.Loaded, (info: AdLoadInfo) => {
+      // Subscribe prepared rewardVideo
+    });
+
+    AdMob.addListener(RewardAdPluginEvents.FailedToLoad, (error: AdMobError) => {
+      if(this.ads_control["interitial_ad"]){
+        this.interstitial()
+      }
+    });
+
+    AdMob.addListener(RewardAdPluginEvents.Rewarded, (rewardItem: AdMobRewardItem) => {
+      // Subscribe user rewarded
+    });
+
+    const options: RewardAdOptions = {
+      adId: this.ads_control["rewarded_ad_id"],
+      isTesting: this.ads_control["test_mode"]
+    };
+    await AdMob.prepareRewardVideoAd(options);
+    const rewardItem = await AdMob.showRewardVideoAd();
+  }
+
 }
 
 export async function setData(key: string, value: any): Promise<void> {
@@ -725,6 +777,7 @@ export async function clearData(): Promise<void> {
 
 // const addListeners = async () => {
 //   await PushNotifications.addListener('registration', token => {
+//     console.info('Registration token: ', token.value);
 //   });
 
 //   await PushNotifications.addListener('registrationError', err => {

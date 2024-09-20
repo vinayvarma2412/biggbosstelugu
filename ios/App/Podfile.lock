@@ -17,6 +17,8 @@ PODS:
     - Capacitor
   - CapacitorPushNotifications (6.0.2):
     - Capacitor
+  - CapacitorShare (6.0.2):
+    - Capacitor
   - CapacitorStatusBar (6.0.0):
     - Capacitor
   - Google-Mobile-Ads-SDK (11.3.0):
@@ -33,6 +35,7 @@ DEPENDENCIES:
   - "CapacitorNetwork (from `../../node_modules/@capacitor/network`)"
   - "CapacitorPreferences (from `../../node_modules/@capacitor/preferences`)"
   - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
+  - "CapacitorShare (from `../../node_modules/@capacitor/share`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
 
 SPEC REPOS:
@@ -59,6 +62,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/preferences"
   CapacitorPushNotifications:
     :path: "../../node_modules/@capacitor/push-notifications"
+  CapacitorShare:
+    :path: "../../node_modules/@capacitor/share"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
 
@@ -72,10 +77,11 @@ SPEC CHECKSUMS:
   CapacitorNetwork: 5c94acfdddc22043f2ffaff224ce9b4aa5a179f0
   CapacitorPreferences: 72909b165bc7807103778ddbb86d5d8ce06abf71
   CapacitorPushNotifications: ccd797926c030acad3d5498ef452c735c90a2c89
+  CapacitorShare: 591ae4693d85686ceb590db8e8b44aa014ec6490
   CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
   Google-Mobile-Ads-SDK: 301a16c461c331ba34ff4dab40a22ab7c147af61
   GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
 
-PODFILE CHECKSUM: b83153803fd6ddf055893fa40da8545ab3dc0789
+PODFILE CHECKSUM: 3a0137f79972c773a781b21ab017a623b06a0f11
 
 COCOAPODS: 1.15.2
