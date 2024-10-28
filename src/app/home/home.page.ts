@@ -99,7 +99,7 @@ export class HomePage {
   pollingChartSection: boolean = false;
   shareBtn: boolean = false;
 
-  version: number = 19;
+  version: number = 21;
   updateAlert!: Promise<HTMLIonAlertElement>;
   firstLoad: boolean = true;
   liveSection: boolean = true;
@@ -149,6 +149,7 @@ export class HomePage {
       this.mode = prefersDark.matches
       this.colorTest(prefersDark)
     }
+    // addListeners()
   }
 
   async setupAds(){
@@ -422,6 +423,12 @@ export class HomePage {
       setTimeout(() => {
         this.rewardVideo()
       },1000)
+    }else{
+      if(this.ads_control["interitial_ad"]){
+        setTimeout(() => {
+          this.interstitial()
+        },1000)
+      }
     }
   }
 
@@ -527,7 +534,7 @@ export class HomePage {
       if (data != null) {
         this.votes = [];
         this.names = [];
-        data.sort(function (a: any, b: any) { return b.votes - a.votes; });
+        data.sort(function (a: any, b: any) { return (b.votes + b.manualVotes) - (a.votes + a.manualVotes); });
         for (var i = 0; i < data.length; i++) {
           let manualVotes = data[i]["manualVotes"] ?? 0
           let votes = data[i]["votes"] + manualVotes
