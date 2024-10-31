@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, NgZone, ViewChild } from '@angular/core';
 import { Preferences } from '@capacitor/preferences';
 import { AlertController, IonicSafeString, LoadingController } from '@ionic/angular';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -25,6 +25,13 @@ import { initializeApp } from 'firebase/app';
 import { PushNotifications } from '@capacitor/push-notifications';
 import { Capacitor } from '@capacitor/core';
 import { Share } from '@capacitor/share';
+
+declare var YT: any;
+declare global {
+  interface Window {
+    onYouTubeIframeAPIReady: () => void;
+  }
+}
 
 export type ChartOptions = {
   title: ApexTitleSubtitle;
@@ -117,12 +124,16 @@ export class HomePage {
   isBannerAdLoaded: boolean = false;
   update_url: any;
   shareMessage:any;
+  livePicUrl: String = 'assets/images/live.jpg';
+  player: any;
+  url: any;
 
 
   constructor(
     public loadingController: LoadingController,
     public domSanitizer: DomSanitizer,
-    private alertCtrl: AlertController) {
+    private alertCtrl: AlertController,
+    private zone: NgZone) {
     this.networkStatus();
   }
 
@@ -236,6 +247,8 @@ export class HomePage {
       this.pollingChartSection = sectionControlls["pollingChartSection"]
       this.shareBtn = sectionControlls["shareBtn"]
 
+      this.getImagesLinks();
+
       if (!this.pollingSection) {
         setTimeout(() => {
           this.loader = false;
@@ -265,6 +278,22 @@ export class HomePage {
       }
 
       this.setupAds()
+    });
+  }
+
+  getImagesLinks() {
+    const db = getDatabase();
+    const starCountRef = ref(db);
+    get(child(starCountRef, "appInfo/imageLinks")).then(async (snapshot) => {
+      if (snapshot.exists()) {
+        let imageLinks = snapshot.val();
+        if(imageLinks['livePic']){
+          this.livePicUrl = imageLinks['livePic']
+        }if(imageLinks['livePic']){
+          this.logoUrl = imageLinks['logo']
+        }
+      }
+    }).catch((error) => {
     });
   }
 
