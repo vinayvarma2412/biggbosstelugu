@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, NgZone, ViewChild } from '@angular/core';
 import { Preferences } from '@capacitor/preferences';
 import { AlertController, IonicSafeString, LoadingController } from '@ionic/angular';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -25,6 +25,13 @@ import { initializeApp } from 'firebase/app';
 import { PushNotifications } from '@capacitor/push-notifications';
 import { Capacitor } from '@capacitor/core';
 import { Share } from '@capacitor/share';
+
+declare var YT: any;
+// declare global {
+//   interface Window {
+//     onYouTubeIframeAPIReady: () => void;
+//   }
+// }
 
 export type ChartOptions = {
   title: ApexTitleSubtitle;
@@ -117,12 +124,17 @@ export class HomePage {
   isBannerAdLoaded: boolean = false;
   update_url: any;
   shareMessage:any;
+  livePicUrl: String = 'assets/images/live.jpg';
+  players: any[] = [];
+  playingCount: number = 0
+  isFullScreen: boolean = false;
 
 
   constructor(
     public loadingController: LoadingController,
     public domSanitizer: DomSanitizer,
-    private alertCtrl: AlertController) {
+    private alertCtrl: AlertController,
+    private ngZone: NgZone) {
     this.networkStatus();
   }
 
@@ -150,6 +162,19 @@ export class HomePage {
       this.colorTest(prefersDark)
     }
     // addListeners()
+    document.addEventListener('fullscreenchange', this.onFullScreenChange.bind(this));
+  }
+
+  onFullScreenChange() {
+    this.ngZone.run(() => {
+      this.isFullScreen = !!document.fullscreenElement;
+      this.hideOrResumeBannerAd()
+    });
+  }
+
+  ngOnDestroy() {
+    // Clean up the event listeners when the component is destroyed
+    document.removeEventListener('fullscreenchange', this.onFullScreenChange.bind(this));
   }
 
   async setupAds(){
@@ -236,6 +261,8 @@ export class HomePage {
       this.pollingChartSection = sectionControlls["pollingChartSection"]
       this.shareBtn = sectionControlls["shareBtn"]
 
+      this.getImagesLinks();
+
       if (!this.pollingSection) {
         setTimeout(() => {
           this.loader = false;
@@ -265,6 +292,22 @@ export class HomePage {
       }
 
       this.setupAds()
+    });
+  }
+
+  getImagesLinks() {
+    const db = getDatabase();
+    const starCountRef = ref(db);
+    get(child(starCountRef, "appInfo/imageLinks")).then(async (snapshot) => {
+      if (snapshot.exists()) {
+        let imageLinks = snapshot.val();
+        if(imageLinks['livePic']){
+          this.livePicUrl = imageLinks['livePic']
+        }if(imageLinks['livePic']){
+          this.logoUrl = imageLinks['logo']
+        }
+      }
+    }).catch((error) => {
     });
   }
 
@@ -437,14 +480,53 @@ export class HomePage {
     const starCountRef = query(ref(db, "promos/"), limitToLast(4));
     onValue(starCountRef, (snapshot) => {
       let promoData: any = Object.values(snapshot.val());
-      for (var i = promoData.length - 1; i >= 0; i--) {
-        if (promoData[i] != undefined) {
-          let url = promoData[i]["url"]
-          let embedUrl: any = this.domSanitizer.bypassSecurityTrustResourceUrl(promoData[i]["eUrl"])
-          this.promos.push({ url: embedUrl, title: promoData[i]["title"], link: url});
-        }
-      }
+      this.promos = promoData.reverse()
+      setTimeout(() => {
+        this.loadPlayers()
+      },100);
     });
+  }
+
+  loadPlayers(){
+    for (var i = 0; i<this.promos.length; i++) {
+      let videoId = this.getYoutubeVideoId(this.promos[i]['url'])
+      this.players[i] = new YT.Player(`player-${i}`, {
+        width:"100%",
+        height:"315",
+        videoId: videoId,
+        events: {
+          onStateChange: (event: any) => this.onPlayerStateChange(event)
+        }
+      });
+    }
+  }
+
+  getYoutubeVideoId(url: any){
+    return url.split('/').pop().split('?')[0];
+  }
+
+  onPlayerStateChange(event: any) {
+    // Check if the player is playing
+    if (event.data === YT.PlayerState.PLAYING) {
+      this.ngZone.run(() => {
+        this.playingCount += 1
+        this.hideOrResumeBannerAd()
+      });
+    }
+    else if(event.data === YT.PlayerState.PAUSED){
+      this.ngZone.run(() => {
+        this.playingCount -= 1
+        this.hideOrResumeBannerAd()
+      });
+    }
+  }
+
+  hideOrResumeBannerAd(){
+    if(this.playingCount>0 || this.isFullScreen){
+      this.hideBannerAd()
+    }else{
+      this.resumeBannerAd()
+    }
   }
 
   getContestantsInfo() {
@@ -709,6 +791,22 @@ export class HomePage {
     };
     await AdMob.prepareInterstitial(options);
     await AdMob.showInterstitial();
+  }
+
+  async hideBannerAd(): Promise<void> {
+    AdMob.hideBanner().then(() => {
+      console.log('Banner Ad Hidden')
+    }).catch(err => {
+      console.log(err.message);
+    });
+  }
+
+  async resumeBannerAd(): Promise<void> {
+    AdMob.resumeBanner().then(() => {
+      console.log('Banner Ad Resumed');
+    }).catch(err => {
+        console.log(err.message);
+    });
   }
   
   async banner(): Promise<void> {
