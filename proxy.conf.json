@@ -1,0 +1,15 @@
+{
+  "/firebase-storage": {
+    "target": "https://firebasestorage.googleapis.com",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/firebase-storage": ""
+    }
+  }
+}
+
+
+
+

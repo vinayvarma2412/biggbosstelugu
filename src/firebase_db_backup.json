@@ -1,0 +1,3009 @@
+{
+  "appInfo": {
+    "ads_control": {
+      "banner_ad": true,
+      "banner_ad_id": "ca-app-pub-9959591108553606/8986866710",
+      "interitial_ad": true,
+      "interstitial_ad_id": "ca-app-pub-9959591108553606/8047521269",
+      "reward_ad": false,
+      "rewarded_ad_id": "ca-app-pub-9959591108553606/4709734025",
+      "test_mode": false
+    },
+    "imageLinks": {
+      "livePic": "",
+      "logo": ""
+    },
+    "liveLink": "https://www.hotstar.com/in/shows/bbs8-24x7-stream-deferred/1271327426/live/watch",
+    "sectionControlls": {
+      "contestantsSection": true,
+      "highlightsSection": true,
+      "liveSection": true,
+      "pollingChartSection": true,
+      "pollingSection": true,
+      "promosSection": true,
+      "shareBtn": true,
+      "winnerSection": true
+    },
+    "share": {
+      "dialogTitle": "Share Bigg Boss 8 Voting Results",
+      "text": "Bigg Boss 8 | Voting Lines Open Now\\nVote and Save Your Favourite Contestant From The Elimination\\n",
+      "title": "Bigg Boss 8 | Telugu",
+      "url": "https://play.google.com/store/apps/details?id=com.mrunknown.biggboss5"
+    },
+    "versionUpdate": {
+      "cache": false,
+      "clear_local_storage": 4,
+      "showUpdate": true,
+      "update_url": "https://play.google.com/store/apps/details?id=com.mrunknown.biggboss5",
+      "versionNumber": 23
+    },
+    "week": "15"
+  },
+  "contestants": [
+    {
+      "css": "eliminated",
+      "desc": "TV Actress <a href='https://www.instagram.com/yashmigowda/'>@yashmigowda</a>",
+      "imageUrl": "assets/contestants/2.png",
+      "name": "Yashmi",
+      "nominated": 8,
+      "status": "Eliminated (week 12)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557"
+    },
+    {
+      "css": "safe",
+      "desc": "TV Actor <a href='https://www.instagram.com/nikhilmaliyakkal_official/'>@nikhilmaliyakkal_official</a>",
+      "imageUrl": "assets/contestants/9.png",
+      "name": "Nikhil",
+      "nominated": 11,
+      "status": "safe",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actor <a href='https://www.instagram.com/abhainaveen/'>@abhainaveen</a>",
+      "imageUrl": "assets/contestants/13.png",
+      "name": "Abhai Naveen",
+      "nominated": 2,
+      "status": "Eliminated (week 3)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F13.png?alt=media&token=e9cbca66-7954-4808-b9f6-d10d61f452c1"
+    },
+    {
+      "css": "safe",
+      "desc": "TV Actress <a href='https://www.instagram.com/prerana.kambam/'>@prerana.kambam</a>",
+      "imageUrl": "assets/contestants/5.png",
+      "name": "Prerana Kambam",
+      "nominated": 11,
+      "status": "safe",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actor <a href='https://www.instagram.com/theadityaom/'>@theadityaom</a>",
+      "imageUrl": "assets/contestants/11.png",
+      "name": "Aditya Om",
+      "nominated": 4,
+      "status": "Eliminated (week 5)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F11.png?alt=media&token=7e5259b3-d03b-4305-9f4e-c7bf99f4922b"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actress <a href='https://www.instagram.com/soniya_akula_official/'>@soniya_akula_official</a>",
+      "imageUrl": "assets/contestants/3.png",
+      "name": "Soniya Akula",
+      "nominated": 3,
+      "status": "Eliminated (week 4)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F3.png?alt=media&token=bbdc67ed-7cb5-4b87-b04f-644f84b44c43"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Social Media <a href='https://www.instagram.com/bezawada_bebakka/'>@bezawada_bebakka</a>",
+      "imageUrl": "assets/contestants/7.png",
+      "name": "Bebakka",
+      "nominated": 2,
+      "status": "Eliminated (week 1)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F7.png?alt=media&token=53a16470-6e00-4c3d-9417-910ed10e7c49"
+    },
+    {
+      "css": "eliminated",
+      "desc": "RJ/VJ <a href='https://www.instagram.com/shekarbasharj/'>@shekarbasharj</a>",
+      "imageUrl": "assets/contestants/10.png",
+      "name": "Shekar Basha",
+      "nominated": 3,
+      "status": "Eliminated (week 2)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F10.png?alt=media&token=83d6dbd1-8f99-4993-bdbe-6a5f48eb048c"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actress <a href='https://www.instagram.com/kirrakseetha/'>@kirrakseetha</a>",
+      "imageUrl": "assets/contestants/6.png",
+      "name": "Seetha",
+      "nominated": 4,
+      "status": "Eliminated (week 6)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F6.png?alt=media&token=1488e2db-ad59-40c0-890b-21d15d3e2fe8"
+    },
+    {
+      "css": "eliminated",
+      "desc": "TV Actor <a href='https://www.instagram.com/naga_manikanta_official/'>@naga_manikanta_official</a>",
+      "imageUrl": "assets/contestants/12.png",
+      "name": "Naga Manikanta",
+      "nominated": 7,
+      "status": "Eliminated (week 7)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc"
+    },
+    {
+      "css": "eliminated",
+      "desc": "TV Actor <a href='https://www.instagram.com/prithvirajshetty19/'>@prithvirajshetty19</a>",
+      "imageUrl": "assets/contestants/8.png",
+      "name": "Prithviraj",
+      "nominated": 13,
+      "status": "Eliminated (week 13)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234"
+    },
+    {
+      "css": "eliminated",
+      "desc": "TV Presenter <a href='https://www.instagram.com/vishnupriyabhimeneni/'>@vishnupriyabhimeneni</a>",
+      "imageUrl": "assets/contestants/1.jpg",
+      "name": "Vishnu Priya",
+      "nominated": 12,
+      "status": "Eliminated (week 14)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Dancer <a href='https://www.instagram.com/_.nainikadances/'>@_.nainikadances</a>",
+      "imageUrl": "assets/contestants/4.png",
+      "name": "Nainika Anasuru",
+      "nominated": 4,
+      "status": "Eliminated (week 5)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F4.png?alt=media&token=0020e73f-6ee8-47ef-ad54-022ba5fc204b"
+    },
+    {
+      "css": "safe",
+      "desc": "Youtuber <a href='https://www.instagram.com/iamnabeelafridi/'>@iamnabeelafridi</a>",
+      "imageUrl": "assets/contestants/14.png",
+      "name": "Nabeel Afridi",
+      "nominated": 8,
+      "status": "safe",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actress <a href='https://www.instagram.com/actress_hariteja?igsh=cTIzNGZqaDlkOTI3'>@actress_hariteja </a>",
+      "imageUrl": "assets/contestants/15.jpg",
+      "name": "Hariteja",
+      "nominated": 4,
+      "status": "Eliminated (week 10)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F15.jpg?alt=media&token=9f45bcb5-215b-462d-90d2-753dd6533479"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Youtuber <a href='https://www.instagram.com/tastyteja?igsh=MTE3djB2ZjEzaWFtbQ=='>@tastyteja </a>",
+      "imageUrl": "assets/contestants/16.jpg",
+      "name": "Tasty Teja",
+      "nominated": 6,
+      "status": "Eliminated (week 13)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actress <a href='https://www.instagram.com/nayani_pavani?igsh=MWV6N2VjbWF1eXN5NA=='>@nayani_pavani </a>",
+      "imageUrl": "assets/contestants/17.jpg",
+      "name": "Nayani Pavani",
+      "nominated": 3,
+      "status": "Eliminated (week 9)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F17.jpg?alt=media&token=0cde76bd-9fb0-4ae6-96f9-08516b9e5dc5"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actor <a href='https://www.instagram.com/mehaboobdilse?igsh=bnh3ZmNnNWVhM3Vo'>@mehaboobdilse </a>",
+      "imageUrl": "assets/contestants/18.jpg",
+      "name": "Mehaboob",
+      "nominated": 3,
+      "status": "Eliminated (week 8)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F18.jpg?alt=media&token=06c65342-d4f9-44fd-b8de-829f19a192ba"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actor <a href='https://www.instagram.com/actressrohini?igsh=bTNuN2Q1b2x1OXIz'>@actressrohini </a>",
+      "imageUrl": "assets/contestants/19.jpg",
+      "name": "Rohini",
+      "nominated": 2,
+      "status": "Eliminated (week 14)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F19.jpg?alt=media&token=0393c0b3-d1e8-4272-9d49-87120de85f4f"
+    },
+    {
+      "css": "safe",
+      "desc": "Actor <a href='https://www.instagram.com/actorgauthamkrishna?igsh=MWZibWtoMHdxcm9oZA=='>@actorgauthamkrishna </a>",
+      "imageUrl": "assets/contestants/20.jpg",
+      "name": "Goutham Krishna",
+      "nominated": 9,
+      "status": "safe",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e"
+    },
+    {
+      "css": "safe",
+      "desc": "Actor <a href='https://www.instagram.com/jabardasth_avinash?igsh=eG1pazFyN2EzamIx'>@jabardasth_avinash </a>",
+      "imageUrl": "assets/contestants/21.jpg",
+      "name": "Avinash",
+      "nominated": 5,
+      "status": "safe",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F21.jpg?alt=media&token=2f789183-d3da-43e4-959b-6191e8d42580"
+    },
+    {
+      "css": "eliminated",
+      "desc": "Actor <a href='https://www.instagram.com/gangavva?igsh=MWoyODUyNnh4azZ6Mw=='>@gangavva </a>",
+      "imageUrl": "assets/contestants/22.jpg",
+      "name": "Gangavva",
+      "nominated": 2,
+      "status": "Self Eliminated (week 10)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F22.jpg?alt=media&token=0b81cb41-abf6-4bbf-a62f-4042fa56ed68"
+    }
+  ],
+  "highlights": [
+    {
+      "desc": "<p>Bigg Boss 8 updates soon… Stay tuned…</p>",
+      "img": true,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/highlights%2FIMG_2533.jpeg?alt=media&token=cfde35ca-0eda-4a0f-884c-35bcdb4e85f7",
+      "title": "Bigg Boss 8"
+    },
+    {
+      "desc": "<p> As the excitement builds, speculation about the contestants has also been rife. The Instagram page Telugu Bigg Boss Stars, known for its reliable updates, has revealed the first set of confirmed contestants. Among those entering the Bigg Boss house this season are:<br> 1. Indraneel Varma <br> 2. Shanoor Sana <br> 3. Tejaswini Gowda <br> 4. Ravi Teja <br> 5. Rithu Chowdary <br> 6. Comedian Babloo <br> 7. Vishnupriya <br> 8. Pavitra <br> 9. Anjali Pawan <br> </p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Bigg Boss Telugu 8 confirmed contestants list:"
+    },
+    {
+      "desc": "<p>Bigg Boss stands as a renowned reality show on Indian television. The eagerly awaited Telugu edition, Season 8 of Bigg Boss, is set to commence on 1st September 2024. Hosted by the esteemed King Nagarjuna, the house will welcome 19 contestants.<br> <br> Below, we present the comprehensive list and details of the participants in Bigg Boss Telugu Season 8.</p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "BiggBoss 8 Show stating Date"
+    },
+    {
+      "desc": "<p>Your Sunday plans with Nagarjuna 👑💪🏻</p>",
+      "img": true,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/Highlights%2F1724742225450_IMG_2669.jpeg?alt=media&token=e3ad6e75-e902-456d-a8f4-4c961e2bbe55",
+      "title": "Bigg Boss 8 Streaming 1st September from 7pm!"
+    },
+    {
+      "desc": "<p>3 Days to go…</p>",
+      "img": true,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/highlights%2F1724954381807_IMG_2673.jpeg?alt=media&token=e83a4d16-d0c7-4781-8f2a-3a678b36f1a0",
+      "title": "The biggest show coming right back!"
+    },
+    {
+      "desc": "<p> Get ready as King Nagarjuna returns in a grand style to unveil the contestants of an electrifying new season, packed with limitless drama and entertainment. \n<a href='https://www.hotstar.com/in/shows/bigg-boss/14714/season-premiere/1271327460/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Season Premiere | S8 - E1"
+    },
+    {
+      "desc": "<p> An array of arguments ensues as the contestants enter the house. Later, the housemates' physical strength is put to test to grab the spot of the third chief.\n<a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-1-a-task-for-the-third-chief/1271327653/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 1: A Task for the Third Chief | S8 - E2"
+    },
+    {
+      "desc": "<p> After a midnight altercation, the house meets in the morning to discuss tasks. Later, housemates clash with the chiefs during the season’s first nomination. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-2-nomination-sparks-fiery-fights/1271327711/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 2: Nomination Sparks Fiery Fights"
+    },
+    {
+      "desc": "<p> Tension rises as the housemates engage in verbal war to nominate each other.\nSubsequently, BB summons Manikanta to the confession room. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-3-confession-rooms-first-visitor/1271327783/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 3: Confession Room's First Visitor"
+    },
+    {
+      "desc": "<p> Stronger the clan, powerful the chief! The three chiefs must choose a team for themselves, not only by convincing the housemates but also by performing a task. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-3-confession-rooms-first-visitor/1271327783/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 4: Chiefs to Select Their Clan"
+    },
+    {
+      "desc": "<p> Yashmi and Nainika’s clans battle through tasks for the opportunity to steal a member from Nikhil’s team. However, a surprise from BB leaves the winners in awe. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-5-clash-of-clans/1271328157/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 5: Clash of Clans"
+    },
+    {
+      "desc": "<p> Excitement fills the air as Nagarjuna joins the housemates for Vinayaka Chavithi.\nLater, things become intense when he dives into individual performance reviews. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-6-king-meets-the-housemates/1271328148/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 6: King Meets the Housemates"
+    },
+    {
+      "desc": "<p> It is that time of the week when the housemates have to take names for eviction. A verbal war begins as they pour the paint on the ones they nominate. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-7-first-eviction/1271328149/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 7: First Eviction"
+    },
+    {
+      "desc": "<p> It is that time of the week when the housemates have to take names for eviction. A verbal war begins as they pour the paint on the ones they nominate. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-8-a-colourful-nomination/1271328336/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 8: A Colourful Nomination"
+    },
+    {
+      "desc": "<p> Nomination spirals into personal attacks and painful disputes, leaving Nainika in tears. The drama intensifies as BB orders housemates to surrender all their ration. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-9-food-lockdown/1271328437/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 9: Food Lockdown?"
+    },
+    {
+      "desc": "<p> The chiefs get a chance to shop for groceries, while their clans fight to defend the respective provisions. During the task, Sanchalak Yashmi faces pushback over her strict rules. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-10-find-and-run/1271328577/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 10: Find and Run"
+    },
+    {
+      "desc": "<p> BB provides a bunch of opportunities for the housemates to win their budget. Each of the clans puts up a tough fight, but the Sanchalak's decision leads to chaos. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-11-a-battle-for-the-budget/1271328652/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 11: A Battle for the Budget"
+    },
+    {
+      "desc": "<p> After Prerana's decision on the Socks task, the house engages in an energetic Truth or Dare game. The lively mood shifts to an emotional tone with an unexpected surprise from BB. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-12-special-gifts-for-the-housemates/1271328766/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 12: Special Gifts for the Housemates"
+    },
+    {
+      "desc": "<p> Nagarjuna assesses the chiefs and clans with a mix of praise and critique.\nFurther, he brightens Shekar's day with good news while delivering a shocker to the chiefs. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-13-shocks-and-a-surprise/1271328760/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 13: Shocks and A Surprise"
+    },
+    {
+      "desc": "<p> Sunday Funday begins with electing new chiefs and members, followed by Nagarjuna's energetic games. The drama heightens as he drops a new twist in this week's eviction. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-14-elect-chiefs-evict-a-member/1271328761/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 14: Elect Chiefs, Evict a Member"
+    },
+    {
+      "desc": "<p> Clans Kantara and Shakti delegate tasks and discuss last week's robbery. Yet another series of verbal war ensues as the nominations with dust showers begin. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-15-dusty-nominations-and-drama/1271329071/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 15: Dusty Nominations and Drama"
+    },
+    {
+      "desc": "<p> After going over the nominations, housemates challenge each other for this week's provisions. Which clan will grab the most points from the three intense tasks? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-16-clans-kantara-vs-shakti/1271329138/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 16: Clans Kantara vs Shakti"
+    },
+    {
+      "desc": "<p> Disputes arise over Sonia's decision on the balloon task. The next day, the chiefs tackle a new task while Prabhavathi 2.0 returns to the house to present a special assignment. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-17-prabhavathi-is-back/1271329341/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 17: Prabhavathi Is Back!"
+    },
+    {
+      "desc": "<p> The housemates compete fiercely to collect the maximum eggs. As the clans face a cooking restriction, the losing team is forced to eliminate one member. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-18-procure-eggs-to-prevail/1271329342/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 18: Procure Eggs to Prevail"
+    },
+    {
+      "desc": "<p> With the red egg, clan Shakti wins the advantage to choose one member for chief contendership. On the other hand, BB shows the main door to clan Kantara for disobeying the rules. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-19-who-will-be-the-next-chief/1271329343/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 19: Who Will be the Next Chief?"
+    },
+    {
+      "desc": "<p> Nagarjuna confronts the housemates about their misbehaviour. He calls out everyone's faults and, in a dramatic twist, shows a red card to Abhai for his reckless comments. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-20-seasons-first-red-card/1271329473/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 20: Season's First Red Card"
+    },
+    {
+      "desc": "<p> Nagarjuna ignites a wave of laughter this weekend with quirky games that keep the housemates on edge. As the thrill escalates, one contestant gets ready to exit. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-21-playtime-with-the-king/1271329474/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 21: Playtime with the King"
+    },
+    {
+      "desc": "<p> As housemates reminisce about their time with the evictee, they gear up for this week's nominations. With emotions flaring over past disputes, how will the process play out? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-22-nomination-in-full-swing/1271329986/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 22: Nomination in Full Swing!"
+    },
+    {
+      "desc": "<p> With emotions still high from the nominations, Yashmi and Sonia get into a brawl.\nLater, Nikhil competes with the housemates for a chance to choose clan\nKantara's next chief. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-23-welcome-new-chief/1271330042/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 23: Welcome, New Chief"
+    },
+    {
+      "desc": "<p> Seetha takes charge of her new Kantara clan. Soon after, the house descends into chaos when BB reveals the potential arrival of 12 wildcards. What challenges await the housemates? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-24-a-bigg-twist/1271330831/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 24: A Bigg Twist"
+    },
+    {
+      "desc": "<p> Shakti clan wins the thrilling third task of 'Survival of the Fittest', and gains the power to eliminate a Kantara member. Manikanta revolts, sparking arguments within his clan. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-25-clan-shakti-in-turmoil/1271330832/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 25: Clan Shakti in Turmoil"
+    },
+    {
+      "desc": "<p> BB shares the perks of a golden band, which a member of the Shakti clan puts to work. Later, laughter echoes through the house as everyone engages in mimicry for the next task. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-26-imitation-game/1271330833/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 26: Imitation Game"
+    },
+    {
+      "desc": "<p> Past conflicts resurface when Nagarjuna asks the housemates to classify each other as 'heroes' and 'zeroes.' One faces the danger zone, while another is saved from eviction. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-27-a-crowning-ceremony/1271332415/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 27: A Crowning Ceremony"
+    },
+    {
+      "desc": "<p> Nagarjuna hosts an exciting day filled with engaging games that keep the housemates fully entertained. However, he shocks them by granting the power to save or evict a nominee. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-28-housemates-take-a-call/1271332416/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 28: Housemates Take a Call"
+    },
+    {
+      "desc": "<p> The housemates present their nominations by throwing the pictures on fire, sparking arguments. Simultaneously, they are asked to vote for the chief among Seetha and Nikhil. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-29-nominations-of-fire/1271332734/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 29: Nominations of Fire"
+    },
+    {
+      "desc": "<p> Survival of the Fittest series continues, and both the clans put up a tough fight in the challenges. As clan Shakti outperforms, clan Kantara is compelled to remove two members. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-30-clan-shaktis-winning-streak/1271332836/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 30: Clan Shakti's Winning Streak"
+    },
+    {
+      "desc": "<p> Clan Shakti secures victory and selects a chief contender to block the wildcards.\nEmotional disputes surface when BB allows others to compete for the position. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-31-pick-your-next-chief/1271332914/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 31: Pick Your Next Chief"
+    },
+    {
+      "desc": "<p> BB dissolves the clans and hosts a task for the contenders to become Mega Chief. As one of them takes charge, an unexpected midweek eviction leaves everyone shell-shocked. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-32-midweek-eviction/1271333022/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 32: Midweek Eviction"
+    },
+    {
+      "desc": "<p> Manikanta's amusing predictions as an astrologer earn applause in the house. A cloud of tension looms later when they face tough choices and special gifts in the confession room. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-33-a-token-of-love/1271333023/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 33: A Token of Love"
+    },
+    {
+      "desc": "<p>\nSeason 1 - Hariteja <br>\nSeason 3 - Rohini <br>\nSeason 4 - Avinash , Gangavva and Mehaboob <br>\nSeason 7 - Gautham , Nayani and Tasty Teja\n</p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Bigg Boss 8 Wild card entries list"
+    },
+    {
+      "desc": "<p> One more housemate bids goodbye. Tables turn as the King welcomes the wildcard entrants and splits all the housemates into two new clans. What surprises are about to be unveiled? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-35-the-grand-reload-event/1271333096/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 35: The Grand Reload Event"
+    },
+    {
+      "desc": "<p> A wave of excitement fills the house as OG clan welcomes the wildcards aka the Royal clan. However, their happiness is short-lived as nominations from the newbies stun everyone. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-36-new-housemates-new-drama/1271333703/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 36: New Housemates, New Drama"
+    },
+    {
+      "desc": "<p> Royal Clan reaps benefits during nominations, putting others in a tough spot.\nChaos ensues in the house after mega chief Nabeel slips up during his trip to the supermarket. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-37-mega-chiefs-plea-to-bb/1271333785/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 37: Mega Chief's Plea to BB"
+    },
+    {
+      "desc": "<p> Avinash takes charge of the ladies, while Rohini coaches the boys in a hilarious challenge. Later, the OG clan excitedly rolls out the red carpet for the Royals to their new Hotel. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-38-welcome-to-bb-hotel/1271333958/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 38: Welcome to BB Hotel"
+    },
+    {
+      "desc": "<p> Staff swap roles and impress the guests for rewards, but a new physical challenge complicates matters. As time runs out and prize money increases, which clan will claim victory? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-39-staff-vs-the-guests/1271334100/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 39: Staff vs the Guests"
+    },
+    {
+      "desc": "<p> Six members of Royal clan face off against one member from OG to become the next Mega Chief. However, the tasks go awry as contenders engage in personal conflicts. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-40-royals-fight-for-leadership/1271334101/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 40: Royals Fight for Leadership"
+    },
+    {
+      "desc": "<p> Nagarjuna confronts the BB Hotel drama while handing out penalties and advice.\nAs the royals' gameplay faces intense scrutiny, the stakes for eviction predictions rise. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-41-a-spotlight-on-royal-clan/1271334103/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 41: A Spotlight on Royal Clan"
+    },
+    {
+      "desc": "<p> Amidst the daily tiffs, BB kicks off the nominations for this week. Killer girls Hari Teja and Prerna get to approve the housemates' choices, ensuing intense confrontations. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-43-killer-girls-get-to-choose/1271334546/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 43: Killer Girls Get to Choose"
+    },
+    {
+      "desc": "<p> Nominations go astray when housemates and nominees engage in hateful verbal wars. Adding to the chaos, BB grants the Royal clan a special power which flips the game. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-44-the-game-changer/1271334740/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 44: The Game-Changer"
+    },
+    {
+      "desc": "<p> Nabeel's selfless wish and a hilarious skit brings rewards to the kitchen.\nGangavva becomes a contender, while the rest fight for a chance through the Battery task. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-45-brawls-over-battery/1271334826/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 45: Brawls Over Battery"
+    },
+    {
+      "desc": "<p> Royals take out one opponent and desperately try to gain battery in exchange for facilities. Although the OGs resist the temptation, an internal argument throws them into panic. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-46-high-voltage-drama/1271334866/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 46: High Voltage Drama"
+    },
+    {
+      "desc": "<p> Royal clan wins the pillow challenge. Avinash and Prithvi get the opportunity to earn additional prize money but at a cost. Finally, who will take over as the Mega Chief? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-47-final-fight-for-mega-chief/1271334867/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 47: Final Fight for Mega Chief"
+    },
+    {
+      "desc": "<p> Nagarjuna talks about the past week's happenings and later initiates an intriguing\nBB Times task. Meanwhile, Prithvi gets an exclusive yet challenging offer. Will he accept it? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-48-its-time-for-bb-times/1271334990/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 48: Its Time for 'BB Times'"
+    },
+    {
+      "desc": "<p> The atmosphere buzzes with excitement as Nagarjuna entertains the housemates with interesting games. As the fun unfolds, one housemate gets ready to exit the house. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-49-games-galore/1271335492/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 49: Games Galore"
+    },
+    {
+      "desc": "<p> During the pot-breaking nomination process, tensions flare between Prithvi and Rohini. Later, mega chief Gowtham uses a shield to protect a housemate, leaving\nPrerana disappointed. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-50-midway-through-the-race/1271335717/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 50: Midway through the Race"
+    },
+    {
+      "desc": "<p> Prithvi and Vishnupriya top the list of nominations. Concerned, the OGs urge Prithvi to reconsider his gameplay, while mega chief Gowtham gets the privilege to save a nominee. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-51-pot-breaking-nominations/1271335940/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 51: Pot-breaking Nominations"
+    },
+    {
+      "desc": "<p> A spontaneous gym session and a spooky prank by the Royals lift everyone's spirits. The next day, housemates gear up to decide who's in the running to become the mega chief. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-52-royals-shenanigans/1271336150/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 52: Royals' Shenanigans"
+    },
+    {
+      "desc": "<p> OG clan wins over the Royals and choose Prithvi and Nikhil as contenders for the Chief. OGs also claim that the title winner of S8 will be one among them. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-53-og-clan-turns-the-table/1271336153/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 53: OG Clan Turns the Table"
+    },
+    {
+      "desc": "<p> As BB introduces tougher tasks with clever twists, more contenders enter the race and disagreements arise within the clans. Who will be declared as next week's mega chief? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-54-meet-your-new-mega-chief/1271336154/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 54: Meet Your New Mega Chief"
+    },
+    {
+      "desc": "<p> Nagarjuna commends Gangavva for her prank and addresses last week's conflicts with the housemates. Later, the excitement peaks when actor Suriya join him for a lively evening. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-55-funday-with-suriya/1271336364/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 55: Funday with Suriya"
+    },
+    {
+      "desc": "<p> The festivities begin with heartwarming surprises and fun games for the housemates. To add to the excitement, Nagarjuna invites celebrities on stage before eviction. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-56-diwali-dhamaka/1271336365/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 56: Diwali Dhamaka"
+    },
+    {
+      "desc": "<p> Avinash's sudden exit shocks all, while BB's decision to let mega chief Vishnupriya imprison five nominees heightens the drama. Hurt by her picks, OGs seek redemption in round two. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-57-its-jail-time-for-nominees/1271337147/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 57: It's Jail Time for Nominees"
+    },
+    {
+      "desc": "<p> The OG and Royal clans merge and together compete for the Mega Chief contendership. Four teams of three battle to secure at least one top position, leading to chaos. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-58-the-mega-clan/1271337307/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 58: The Mega Clan"
+    },
+    {
+      "desc": "<p> The water tank task continues and so do the intense fights. Team Green wins and gets to roll the dice, while teams Blue and Red manage to win the next two tasks. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-59-team-yellow-lags-behind/1271337592/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 59: Team Yellow Lags Behind"
+    },
+    {
+      "desc": "<p> To earn extra cooking time, Rohini and Avinash get a task of turning into toddlers.\nAs the challenges for the Mega Chief gets tougher, who will finally win the title this week? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-60-emotional-outbursts/1271337679/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 60: Emotional Outbursts"
+    },
+    {
+      "desc": "<p> Festive excitement fills the air as housemates enjoy Diwali with a special pooja and lively competitions. Mega chief Avinash makes a request, while BB surprises them all. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-61-happy-diwali/1271337811/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 61: Happy Diwali!"
+    },
+    {
+      "desc": "<p> King applauds Avinash for his fun penalties directed at the midday sleepyheads.\nHe also praises the teams for their task performance while reinforcing the importance of decorum. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-62-nagarjunas-message-to-the-house/1271337653/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 62: Nagarjuna's Message to the House"
+    },
+    {
+      "desc": "<p> The evening turns exhilarating as Nagarjuna engages housemates with quirky guessing games. Later, he hosts a juice mixing challenge ahead of the eviction. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-63-non-stop-fun-with-the-king/1271337654/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 63: Non-Stop Fun with the King"
+    },
+    {
+      "desc": "<p> The week kicks off with heightened emotions as housemates face nominations.\nPast conflicts resurface, and mega chief Avinash steps in to save a nominee. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-64-nomination-frenzy/1271338233/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 64: Nomination Frenzy"
+    },
+    {
+      "desc": "<p> Nabeel, Prithvi and Rohini unexpectedly win the contendership for Mega Chief.\nTheir next challenge is to retain this victory by battling the tough tasks designed for them. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-65-contendership-up-for-grabs/1271338434/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 65: Contendership Up For Grabs"
+    },
+    {
+      "desc": "<p> Contenders Vishnupriya, Prerana and Yashmi confront each other in a strenuous task to grab the spot. Later, BB gives an interesting dare to Prerana and Tasty Teja. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-66-spill-the-tea/1271338608/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 66: Spill the Tea"
+    },
+    {
+      "desc": "<p> A prank leaves chief contender Yashmi on edge, while Prithvi's actions make Vishnupriya question their bond. In the final round, housemates jeopardise\nNabeel's chance to win. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-67-chaos-over-contendership/1271338876/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 67: Chaos Over Contendership"
+    },
+    {
+      "desc": "<p> Prerana is crowned as the new mega chief, leaving Rohini upset. Later, BB gives housemates a chance to earn an eviction shield by nominating those they deem unworthy. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-68-eviction-shield/1271339059/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 68: Eviction Shield"
+    },
+    {
+      "desc": "<p> Rule violation and poor performance land Tasty Teja in trouble, while Nagarjuna gives the contenders a chance to win the shield. Unfortunate results await one of the housemates. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-69-nagarjunas-verdict/1271338903/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 69: Nagarjuna's Verdict"
+    },
+    {
+      "desc": "<p> Nagarjuna looks into the food theft, while the housemates entertain him with a playful cosplay game. Later, Varun Tej joins them ahead of this week's elimination. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-70-cosplay-fun-and-food-theft/1271338906/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 70: Cosplay Fun and Food Theft"
+    },
+    {
+      "desc": "<p> Reeling from last week's drama, housemates face nominations where they paint criticisms on each other's portraits. Tasty Teja and Gowtham get defensive, which sparks heated tiffs. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-71-nomination-fall-out/1271339545/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 71: Nomination Fall Out"
+    },
+    {
+      "desc": "<p> The most awaited days are finally here! Nabeel and Rohini welcome their dear ones to the house. On the other hand, Tasty Teja makes a tearful plea to BB. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-72-family-week/1271339937/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 72: Family Week"
+    },
+    {
+      "desc": "<p> Yashmi and Nikhil's happiness knows no bounds as their parents enter the house and join them in various tasks. Avinash reunites with his wife, but faces a very crucial choice. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-73-a-sweet-surprise-for-avinash/1271340133/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 73: A Sweet Surprise for Avinash"
+    },
+    {
+      "desc": "<p> Excitement fills the air when Vishnupriya and Prithvi reunite with their loved ones.\nAdding to it, Gotham's brother visits him, while Prerana receives a sweet virtual surprise. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-74-happy-reunions/1271340349/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 74: Happy Reunions"
+    },
+    {
+      "desc": "<p> Family week ends on a high note as Prerana and Tasty Teja receive heartwarming surprises. Later, the housemates gear up to choose their next mega chief. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-75-unexpected-arrivals-unlimited-joy/1271340350/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 75: Unexpected Arrivals, Unlimited Joy"
+    },
+    {
+      "desc": "<p> Nagarjuna interacts with the housemates and recalls their memorable moments from the week. Later, he welcomes celebrities and family members to join him on stage. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-76-limitless-fun-with-the-guests/1271340135/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 76: Limitless Fun with the Guests"
+    },
+    {
+      "desc": "<p> Housemates' loved ones continue to visit, and Nagarjuna keeps them engaged with games. Tension builds as Nabeel faces the crucial decision of whether to use his eviction shield. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-77-a-game-changing-choice/1271340136/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 77: A Game-Changing Choice"
+    },
+    {
+      "desc": "<p> As part of a nomination twist, Sonia, Shekar, and Bebakka enter to the house to nominate two housemates. During the defense, tempers flare and clashes erupt between them. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-78-evictees-comeback/1271340794/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 78: Evictees' Comeback!"
+    },
+    {
+      "desc": "<p> Nominations by Aditya, Nainika, Manikanta and Seetha bring hidden issues to light, leaving the housemates bitter and upset. Will these issues tear apart their bonds? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-79-housemates-in-a-fix/1271340795/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 79: Housemates in a Fix"
+    },
+    {
+      "desc": "<p> Housemates reflect on the nominations, after which a prank leaves Tasty Teja clueless. Later, chaos ensues as they battle to protect their t-shirts to secure a spot as a contender. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-80-one-last-battle-to-become-contender/1271340796/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 80: One Last Battle to Become Contender"
+    },
+    {
+      "desc": "<p> Nikhil and Rohini compete for a spot, but Gotham's accusation against the OG clan sparks arguments. After the contenders face a gruelling task, Vishwak Sen makes a surprise entry. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-81-vishwak-sen-visits-the-house/1271341521/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 81: Vishwak Sen Visits the House"
+    },
+    {
+      "desc": "<p> The contenders face intense tasks to become the season's final Mega Chief.\nAmidst this, an argument between Rohini and Vishnupriya adds to the drama.\nWho will claim the title? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-82-seasons-last-mega-chief/1271341525/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 82: Season's Last Mega Chief"
+    },
+    {
+      "desc": "<p> Rohini and Vishnupriya are reprimanded for their actions, while Gowtham and Prithvi receive a warning. Later, a game of Snakes and Ladders leaves Nikhil and Gowtham with a twist. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-83-a-stern-warning-from-the-king/1271341512/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 83: A Stern Warning from the King"
+    },
+    {
+      "desc": "<p> Nagarjuna enjoys the housemates' fun guessing game and their witty complaints.\nHowever, all eyes soon shift to Yashmi and Prithvi, who anxiously await their fate. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-84-eviction-day/1271341524/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 84: Eviction Day"
+    },
+    {
+      "desc": "<p> BB asks the housemates to nominate those who don't deserve to be in the grand finale. As each one steps forward for the activity, heated arguments take over the house. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-85-paint-it-red/1271341526/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 85: Paint it Red!"
+    },
+    {
+      "desc": "<p> Former contestants Akhil and Harika kickstart the Ticket to Finale battle. They must choose the contenders for the first task and present a black badge to the loser. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-86-the-ttf-race-begins/1271342193/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 86: The TTF Race Begins"
+    },
+    {
+      "desc": "<p> Priyanka and Manas enter the house to plan round two and finalise yet another contender for the TTF race. Who will grab the next spot, and who will get the black star? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-87-strength-strategy-put-to-test/1271342397/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 87: Strength, Strategy Put to Test"
+    },
+    {
+      "desc": "<p> The hunt to pick the next contender resumes when Punarnavi and Vithika enter.\nNikhil takes the lead, while some housemates raise voices against the unjust decisions. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-88-may-the-strongest-one-win/1271342519/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 88: May the Strongest One Win"
+    },
+    {
+      "desc": "<p> Nikhil, Rohini, and Avinash pick Teja as the fourth contender. Later, Sreemukhi enters the house to unfold a few twists. Finally, who will win the Ticket to Finale? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-89-ticket-to-finale-goes-to/1271342632/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 89: Ticket To Finale Goes to..."
+    },
+    {
+      "desc": "<p> Avinash makes it to the finals, but Nagarjuna's Ticket game sparks tension. In addition, a shocking double eviction twist leaves the housemates on edge. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-90-double-eviction/1271342532/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 90: Double Eviction"
+    },
+    {
+      "desc": "<p> Nagarjuna brings in a set of hilarious and entertaining games for the housemates.\nTension rises for yet another eviction of this week. Who will bid goodbye? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-91-one-left-whos-next/1271342535/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 91: One Left, Who's Next?"
+    },
+    {
+      "desc": "<p> Nominations leave everyone at risk except Avinash. Nikhil and Gowtham lock horns during the task, while Nabeel and Prerana get a golden opportunity, but it comes at a price. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-92-a-battle-for-the-second-spot/1271343099/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 92: A Battle for the Second Spot"
+    },
+    {
+      "desc": "<p> Housemates get one chance to appeal for votes, leading to a heated argument between Nabeel and Rohini. Shekhar Master's surprise visit brings added excitement with a fun twist. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-93-vote-appeal/1271343142/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 93: Vote Appeal"
+    },
+    {
+      "desc": "<p> Chaos erupts as Prerana contests Nabeel's win for a chance to appeal for votes.\nLater, the Vah-Chef makes a surprise entry into the house and prepares a delicious feast. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-94-task-decision-sparks-unrest/1271343143/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 94: Task Decision Sparks Unrest"
+    },
+    {
+      "desc": "<p> Avinash's sacrifice helps Rohini take the lead, while Vishnupriya wins the second round. Now, it's up to the rest of the housemates to pick one of them. Who will that be? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-95-who-will-secure-the-next-spot/1271343352/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 95: Who Will Secure the Next Spot?"
+    },
+    {
+      "desc": "<p> Nikhil and Gotham face off for a chance to appeal, but the former's sharp remarks lead to a major clash. Later, Ohmkar makes a surprise visit to the house. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-96-verbal-war/1271343353/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 96: Verbal War"
+    },
+    {
+      "desc": "<p> Nagarjuna delves into the housemates' regrets from their journey so far. He then shocks everyone with a Double Elimination announcement, leaving the housemates on edge. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-97-eviction-shocker/1271343498/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 97: Eviction Shocker"
+    },
+    {
+      "desc": "<p> Housemates discuss their plans for the prize money. After exciting tasks and reveals, Nagarjuna announces the finalists, while the remaining one faces eviction. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-98-meet-the-finalists/1271343500/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 98: Meet the Finalists"
+    },
+    {
+      "desc": "<p> To increase the prize money, the finalists take on quirky tasks. The excitement doubles as Maa stars joins them, bringing chaos, laughter and nonstop entertainment to the house. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-99-maa-vs-bb-parivaaram/1271344166/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 99: Maa vs BB Parivaaram"
+    },
+    {
+      "desc": "<p> Kavya, Ganga and Gangadhar from Maa Parivaar light up the house with their fun-filled entry. Later, they take on thrilling challenges with the finalists to boost the prize money. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-100-bigg-wins/1271344167/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 100: Bigg Wins"
+    },
+    {
+      "desc": "<p> The housemates prepare some tasty treats for Bigg Boss, and BB returns the favour with delicious delights. Later, Maa Parivaram stars Vaishanavi and Krishna enter the house. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-101-a-fun-banter-with-bb/1271344168/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 101: A Fun Banter with BB"
+    },
+    {
+      "desc": "<p> With just a few days left for the finale, BB prepares some special treats for the finalists. Today, Gautham and Avinash get a chance to relive their incredible journey in S8. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-102-a-trip-down-the-memory-lane/1271344169/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 102: A Trip Down the Memory Lane"
+    },
+    {
+      "desc": "<p> Nikhil, Nabeel and Prerna get to go through and celebrate their amazing journeys of this season. BB motivates them and wishes goodluck for the finale. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-103-reliving-the-season/1271344170/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 103: Reliving the Season"
+    },
+    {
+      "desc": "<p> With just one day for the grand finale, the housemates share the best and worst memories of their life with BB. Later, ever gracious Suma enters to entertain the finalists. <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-104-and-the-countdown-begins/1271364261/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 104: And the Countdown Begins!"
+    },
+    {
+      "desc": "<p> After 14 weeks of limitless drama and entertainment, Nagarjuna sets the stage for the epic finale. Who will seize the dream trophy and become the winner? <a href='https://www.hotstar.com/in/shows/bigg-boss/14714/day-105-grand-finale/1271364539/watch'>Watch Now</a></p>",
+      "img": false,
+      "imgUrl": "",
+      "title": "Day 105: Grand Finale"
+    }
+  ],
+  "polling": {
+    "week0": [
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "name": "Yashmi",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "name": "Nikhil",
+        "votes": 1
+      },
+      {
+        "imageUrl": "assets/contestants/13.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F13.png?alt=media&token=e9cbca66-7954-4808-b9f6-d10d61f452c1",
+        "name": "Abhai Naveen",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "name": "Prerana Kambam",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/11.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F11.png?alt=media&token=7e5259b3-d03b-4305-9f4e-c7bf99f4922b",
+        "name": "Aditya Om",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/3.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F3.png?alt=media&token=bbdc67ed-7cb5-4b87-b04f-644f84b44c43",
+        "name": "Soniya Akula",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/7.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F7.png?alt=media&token=53a16470-6e00-4c3d-9417-910ed10e7c49",
+        "name": "Bebakka",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/10.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F10.png?alt=media&token=83d6dbd1-8f99-4993-bdbe-6a5f48eb048c",
+        "name": "Shekar Basha",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/6.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F6.png?alt=media&token=1488e2db-ad59-40c0-890b-21d15d3e2fe8",
+        "name": "Seetha",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "name": "Naga Manikanta",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "name": "Prithviraj",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "name": "Vishnu Priya",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/4.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F4.png?alt=media&token=0020e73f-6ee8-47ef-ad54-022ba5fc204b",
+        "name": "Nainika Anasuru",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "name": "Nabeel Afridi",
+        "votes": 1
+      },
+      {
+        "imageUrl": "assets/contestants/15.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F15.jpg?alt=media&token=9f45bcb5-215b-462d-90d2-753dd6533479",
+        "name": "Hariteja",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/16.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b",
+        "name": "Tasty Teja",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/17.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F17.jpg?alt=media&token=0cde76bd-9fb0-4ae6-96f9-08516b9e5dc5",
+        "name": "Nayani Pavani",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/18.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F18.jpg?alt=media&token=06c65342-d4f9-44fd-b8de-829f19a192ba",
+        "name": "Mehaboob",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/19.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F19.jpg?alt=media&token=0393c0b3-d1e8-4272-9d49-87120de85f4f",
+        "name": "Rohini",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "name": "Goutham Krishna",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/21.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F21.jpg?alt=media&token=2f789183-d3da-43e4-959b-6191e8d42580",
+        "name": "Avinash",
+        "votes": 0
+      },
+      {
+        "imageUrl": "assets/contestants/22.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F22.jpg?alt=media&token=0b81cb41-abf6-4bbf-a62f-4042fa56ed68",
+        "name": "Gangavva",
+        "votes": 0
+      }
+    ],
+    "week1": [
+      {
+        "imageUrl": "assets/contestants/3.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F3.png?alt=media&token=bbdc67ed-7cb5-4b87-b04f-644f84b44c43",
+        "name": "Soniya Akula",
+        "votes": 1948
+      },
+      {
+        "imageUrl": "assets/contestants/7.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F7.png?alt=media&token=53a16470-6e00-4c3d-9417-910ed10e7c49",
+        "name": "Bebakka",
+        "votes": 1384
+      },
+      {
+        "imageUrl": "assets/contestants/10.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F10.png?alt=media&token=83d6dbd1-8f99-4993-bdbe-6a5f48eb048c",
+        "name": "Shekar Basha",
+        "votes": 1508
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "name": "Naga Manikanta",
+        "votes": 2516
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "name": "Prithviraj",
+        "votes": 2063
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "name": "Vishnu Priya",
+        "votes": 2588
+      }
+    ],
+    "week10": [
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 1600,
+        "name": "Yashmi",
+        "votes": 199
+      },
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 2000,
+        "name": "Nikhil",
+        "votes": 455
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 2000,
+        "name": "Prerana Kambam",
+        "votes": 260
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 1600,
+        "name": "Prithviraj",
+        "votes": 143
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 1600,
+        "name": "Vishnu Priya",
+        "votes": 201
+      },
+      {
+        "imageUrl": "assets/contestants/15.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F15.jpg?alt=media&token=9f45bcb5-215b-462d-90d2-753dd6533479",
+        "manualVotes": 1300,
+        "name": "Hariteja",
+        "votes": 102
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1600,
+        "name": "Goutham Krishna",
+        "votes": 217
+      }
+    ],
+    "week11": [
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 1200,
+        "name": "Yashmi",
+        "votes": 440
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 1000,
+        "name": "Prithviraj",
+        "votes": 301
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 1200,
+        "name": "Vishnu Priya",
+        "votes": 282
+      },
+      {
+        "imageUrl": "assets/contestants/16.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b",
+        "manualVotes": 800,
+        "name": "Tasty Teja",
+        "votes": 226
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1000,
+        "name": "Goutham Krishna",
+        "votes": 223
+      },
+      {
+        "imageUrl": "assets/contestants/21.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F21.jpg?alt=media&token=2f789183-d3da-43e4-959b-6191e8d42580",
+        "manualVotes": 700,
+        "name": "Avinash",
+        "votes": 267
+      }
+    ],
+    "week12": [
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 700,
+        "name": "Yashmi",
+        "votes": 292
+      },
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 1000,
+        "name": "Nikhil",
+        "votes": 614
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 800,
+        "name": "Prerana Kambam",
+        "votes": 292
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 800,
+        "name": "Prithviraj",
+        "votes": 270
+      },
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 1000,
+        "name": "Nabeel Afridi",
+        "votes": 545
+      }
+    ],
+    "week13": [
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 1200,
+        "name": "Nikhil",
+        "votes": 465
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 1000,
+        "name": "Prerana Kambam",
+        "votes": 295
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 750,
+        "name": "Prithviraj",
+        "votes": 200
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 1000,
+        "name": "Vishnu Priya",
+        "votes": 169
+      },
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 1200,
+        "name": "Nabeel Afridi",
+        "votes": 277
+      },
+      {
+        "imageUrl": "assets/contestants/16.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b",
+        "manualVotes": 800,
+        "name": "Tasty Teja",
+        "votes": 101
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1200,
+        "name": "Goutham Krishna",
+        "votes": 187
+      },
+      {
+        "imageUrl": "assets/contestants/21.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F21.jpg?alt=media&token=2f789183-d3da-43e4-959b-6191e8d42580",
+        "manualVotes": 800,
+        "name": "Avinash",
+        "votes": 135
+      }
+    ],
+    "week14": [
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 1000,
+        "name": "Nikhil",
+        "votes": 729
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 900,
+        "name": "Prerana Kambam",
+        "votes": 568
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 800,
+        "name": "Vishnu Priya",
+        "votes": 642
+      },
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 1000,
+        "name": "Nabeel Afridi",
+        "votes": 493
+      },
+      {
+        "imageUrl": "assets/contestants/19.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F19.jpg?alt=media&token=0393c0b3-d1e8-4272-9d49-87120de85f4f",
+        "manualVotes": 500,
+        "name": "Rohini",
+        "votes": 148
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1200,
+        "name": "Goutham Krishna",
+        "votes": 233
+      }
+    ],
+    "week15": [
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 1000,
+        "name": "Nikhil",
+        "votes": 2897
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 700,
+        "name": "Prerana Kambam",
+        "votes": 1530
+      },
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 700,
+        "name": "Nabeel Afridi",
+        "votes": 1187
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1100,
+        "name": "Goutham Krishna",
+        "votes": 995
+      },
+      {
+        "imageUrl": "assets/contestants/21.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F21.jpg?alt=media&token=2f789183-d3da-43e4-959b-6191e8d42580",
+        "manualVotes": 600,
+        "name": "Avinash",
+        "votes": 1139
+      }
+    ],
+    "week2": [
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "name": "Nikhil",
+        "votes": 4672
+      },
+      {
+        "imageUrl": "assets/contestants/11.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F11.png?alt=media&token=7e5259b3-d03b-4305-9f4e-c7bf99f4922b",
+        "name": "Aditya Om",
+        "votes": 2865
+      },
+      {
+        "imageUrl": "assets/contestants/10.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F10.png?alt=media&token=83d6dbd1-8f99-4993-bdbe-6a5f48eb048c",
+        "name": "Shekar Basha",
+        "votes": 2728
+      },
+      {
+        "imageUrl": "assets/contestants/6.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F6.png?alt=media&token=1488e2db-ad59-40c0-890b-21d15d3e2fe8",
+        "name": "Seetha",
+        "votes": 2817
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "name": "Naga Manikanta",
+        "votes": 3292
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "name": "Prithviraj",
+        "votes": 2737
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "name": "Vishnu Priya",
+        "votes": 4643
+      },
+      {
+        "imageUrl": "assets/contestants/4.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F4.png?alt=media&token=0020e73f-6ee8-47ef-ad54-022ba5fc204b",
+        "name": "Nainika Anasuru",
+        "votes": 2869
+      }
+    ],
+    "week3": [
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 1,
+        "name": "Vishnu Priya",
+        "votes": 2027
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "manualVotes": 1,
+        "name": "Naga Manikanta",
+        "votes": 1901
+      },
+      {
+        "imageUrl": "assets/contestants/4.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F4.png?alt=media&token=0020e73f-6ee8-47ef-ad54-022ba5fc204b",
+        "manualVotes": 1,
+        "name": "Nainika Anasuru",
+        "votes": 1257
+      },
+      {
+        "imageUrl": "assets/contestants/6.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F6.png?alt=media&token=1488e2db-ad59-40c0-890b-21d15d3e2fe8",
+        "manualVotes": 1,
+        "name": "Seetha",
+        "votes": 1202
+      },
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 1,
+        "name": "Yashmi Gowda",
+        "votes": 987
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 1,
+        "name": "Prerana Kambam",
+        "votes": 935
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 1,
+        "name": "Prithviraj",
+        "votes": 719
+      },
+      {
+        "imageUrl": "assets/contestants/13.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F13.png?alt=media&token=e9cbca66-7954-4808-b9f6-d10d61f452c1",
+        "manualVotes": 1,
+        "name": "Abhai Naveen",
+        "votes": 717
+      }
+    ],
+    "week4": [
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 0,
+        "name": "Nabeel Afridi",
+        "votes": 1305
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "manualVotes": 0,
+        "name": "Naga Manikanta",
+        "votes": 986
+      },
+      {
+        "imageUrl": "assets/contestants/11.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F11.png?alt=media&token=7e5259b3-d03b-4305-9f4e-c7bf99f4922b",
+        "manualVotes": 0,
+        "name": "Aditya Om",
+        "votes": 613
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 0,
+        "name": "Prerana Kambam",
+        "votes": 1151
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 0,
+        "name": "Prithviraj",
+        "votes": 576
+      },
+      {
+        "imageUrl": "assets/contestants/3.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F3.png?alt=media&token=bbdc67ed-7cb5-4b87-b04f-644f84b44c43",
+        "manualVotes": 0,
+        "name": "Soniya Akula",
+        "votes": 523
+      }
+    ],
+    "week5": [
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 0,
+        "name": "Nabeel Afridi",
+        "votes": 1473
+      },
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 0,
+        "name": "Nikhil",
+        "votes": 1346
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 0,
+        "name": "Vishnu Priya",
+        "votes": 909
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "manualVotes": 0,
+        "name": "Naga Manikanta",
+        "votes": 885
+      },
+      {
+        "imageUrl": "assets/contestants/11.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F11.png?alt=media&token=7e5259b3-d03b-4305-9f4e-c7bf99f4922b",
+        "manualVotes": 0,
+        "name": "Aditya Om",
+        "votes": 668
+      },
+      {
+        "imageUrl": "assets/contestants/4.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F4.png?alt=media&token=0020e73f-6ee8-47ef-ad54-022ba5fc204b",
+        "manualVotes": 0,
+        "name": "Nainika Anasuru",
+        "votes": 578
+      }
+    ],
+    "week6": [
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F22.jpg?alt=media&token=0b81cb41-abf6-4bbf-a62f-4042fa56ed68",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F22.jpg?alt=media&token=0b81cb41-abf6-4bbf-a62f-4042fa56ed68",
+        "manualVotes": 2037,
+        "name": "Gangavva",
+        "votes": 61
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 1553,
+        "name": "Vishnu Priya",
+        "votes": 45
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 1249,
+        "name": "Prithviraj",
+        "votes": 63
+      },
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 1249,
+        "name": "Yashmi",
+        "votes": 78
+      },
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F18.jpg?alt=media&token=06c65342-d4f9-44fd-b8de-829f19a192ba",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F18.jpg?alt=media&token=06c65342-d4f9-44fd-b8de-829f19a192ba",
+        "manualVotes": 998,
+        "name": "Mehaboob",
+        "votes": 51
+      },
+      {
+        "imageUrl": "assets/contestants/6.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F6.png?alt=media&token=1488e2db-ad59-40c0-890b-21d15d3e2fe8",
+        "manualVotes": 877,
+        "name": "Seetha",
+        "votes": 57
+      }
+    ],
+    "week7": [
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 2500,
+        "name": "Yashmi",
+        "votes": 124
+      },
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 3000,
+        "name": "Nikhil",
+        "votes": 316
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 2500,
+        "name": "Prerana Kambam",
+        "votes": 170
+      },
+      {
+        "imageUrl": "assets/contestants/12.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F12.png?alt=media&token=aa2a2e44-e58e-4ea9-a901-7447c3c557fc",
+        "manualVotes": 2500,
+        "name": "Naga Manikanta",
+        "votes": 235
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 1750,
+        "name": "Prithviraj",
+        "votes": 131
+      },
+      {
+        "imageUrl": "assets/contestants/14.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F14.png?alt=media&token=44aff3ae-24d7-4e92-9d20-88537cbad765",
+        "manualVotes": 3000,
+        "name": "Nabeel Afridi",
+        "votes": 315
+      },
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F15.jpg?alt=media&token=9f45bcb5-215b-462d-90d2-753dd6533479",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F15.jpg?alt=media&token=9f45bcb5-215b-462d-90d2-753dd6533479",
+        "manualVotes": 1900,
+        "name": "Hariteja",
+        "votes": 51
+      },
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b",
+        "manualVotes": 1900,
+        "name": "Tasty Teja",
+        "votes": 104
+      },
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1900,
+        "name": "Goutham Krishna",
+        "votes": 71
+      }
+    ],
+    "week8": [
+      {
+        "imageUrl": "assets/contestants/9.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F9.png?alt=media&token=4ca7a41d-ff76-456a-b419-6117231cdc71",
+        "manualVotes": 2000,
+        "name": "Nikhil",
+        "votes": 460
+      },
+      {
+        "imageUrl": "assets/contestants/5.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F5.png?alt=media&token=28ba40ef-3b21-4eee-8702-d61a0bb02c80",
+        "manualVotes": 2000,
+        "name": "Prerana Kambam",
+        "votes": 314
+      },
+      {
+        "imageUrl": "assets/contestants/8.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F8.png?alt=media&token=227b562a-1162-4f62-a6a0-1e184221c234",
+        "manualVotes": 1800,
+        "name": "Prithviraj",
+        "votes": 168
+      },
+      {
+        "imageUrl": "assets/contestants/1.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F1.png?alt=media&token=21d338f5-54a7-48ab-8500-40bef858ce99",
+        "manualVotes": 1800,
+        "name": "Vishnu Priya",
+        "votes": 189
+      },
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F17.jpg?alt=media&token=0cde76bd-9fb0-4ae6-96f9-08516b9e5dc5",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F17.jpg?alt=media&token=0cde76bd-9fb0-4ae6-96f9-08516b9e5dc5",
+        "manualVotes": 1700,
+        "name": "Nayani Pavani",
+        "votes": 83
+      },
+      {
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F18.jpg?alt=media&token=06c65342-d4f9-44fd-b8de-829f19a192ba",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F18.jpg?alt=media&token=06c65342-d4f9-44fd-b8de-829f19a192ba",
+        "manualVotes": 1600,
+        "name": "Mehaboob",
+        "votes": 187
+      }
+    ],
+    "week9": [
+      {
+        "imageUrl": "assets/contestants/2.png",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F2.png?alt=media&token=439b9004-a092-4786-b652-b9feb0577557",
+        "manualVotes": 1500,
+        "name": "Yashmi",
+        "votes": 641
+      },
+      {
+        "imageUrl": "assets/contestants/15.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F15.jpg?alt=media&token=9f45bcb5-215b-462d-90d2-753dd6533479",
+        "manualVotes": 1100,
+        "name": "Hariteja",
+        "votes": 142
+      },
+      {
+        "imageUrl": "assets/contestants/16.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F16.jpg?alt=media&token=804bc951-0018-4b19-b0c0-a83a724f9f5b",
+        "manualVotes": 1100,
+        "name": "Tasty Teja",
+        "votes": 267
+      },
+      {
+        "imageUrl": "assets/contestants/17.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F17.jpg?alt=media&token=0cde76bd-9fb0-4ae6-96f9-08516b9e5dc5",
+        "manualVotes": 900,
+        "name": "Nayani Pavani",
+        "votes": 290
+      },
+      {
+        "imageUrl": "assets/contestants/20.jpg",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/biggbosstelugu-b49b4.appspot.com/o/contestants%2F20.jpg?alt=media&token=d727fd48-de71-49ba-a8b3-a8437aa5ff4e",
+        "manualVotes": 1100,
+        "name": "Goutham Krishna",
+        "votes": 228
+      }
+    ]
+  },
+  "promos": [
+    {
+      "eUrl": "https://www.youtube.com/embed/KBPo8vvlrL4",
+      "title": "Bigg Boss Telugu 8 Coming Soon | #BiggBossTelugu8 on Star Maa",
+      "url": "https://youtu.be/KBPo8vvlrL4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/wodoMpDYY-g",
+      "title": "Bigg Boss Telugu 8 - Teaser | Coming Soon | Nagarjuna Akkineni | Star Maa",
+      "url": "https://youtu.be/wodoMpDYY-g?si=nBSWf2c7rs6IA3Rs"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/mMT77S15Vao",
+      "title": "Bigg Boss Telugu 8 - Promo | Coming Soon | Nagarjuna Akkineni | Star Maa",
+      "url": "https://youtu.be/mMT77S15Vao?si=DgI1zSf_VUt5HPRk"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/L9PS9di_BT0",
+      "title": "Bigg Boss Telugu 8 Grand Launch Today @ 7PM | Nagarjuna | #BiggBossTelugu8 | Star Maa",
+      "url": "https://youtu.be/L9PS9di_BT0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/gu7zjr46EAU",
+      "title": "Bigg Boss Telugu 8 | Day 2 - Promo 1 | Pattukone Undandi Task for Contestants | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/gu7zjr46EAU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/n_rzmzWkPWA",
+      "title": "Bigg Boss Telugu 8| Day 2 - Promo 2| Who will be the Third Chief ?| Nagarjuna | DisneyPlusHotstarTel",
+      "url": "https://youtu.be/n_rzmzWkPWA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/5SNLoDD6KrE",
+      "title": "Bigg Boss Telugu 8 | Bigg Boss First Nomination Sparks Drama | Nagarjuna | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/5SNLoDD6KrE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/UA9jwvb3tg8",
+      "title": "Bigg Boss Telugu 8 | Day 2 - Promo 1 | Bigg Boss First Nomination Sparks Drama | Nagarjuna | StarMaa",
+      "url": "https://youtu.be/UA9jwvb3tg8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/zxawJkQ6b30",
+      "title": "Bigg Boss Telugu 8 | Day 2 - Promo 2 | Nominations High Drama - Who Will Survive? 🔥 | Nagarjuna",
+      "url": "https://youtu.be/zxawJkQ6b30?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/8_JiruLMDes",
+      "title": "BiggBossTelugu8 | Day 3- Promo 1 | | Nominations Get Spicier 🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/8_JiruLMDes?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/2nD7Vz1F03c",
+      "title": "Bigg Boss Telugu 8 | Day 3 - Promo 2 | Nominations Sparked Intense Drama🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/2nD7Vz1F03c?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/d5ymCcgDJDc",
+      "title": "BiggBossTelugu8 | Day 4 - Promo 1 | | Who will be the powerful Chief? | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/d5ymCcgDJDc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Tjso1SkG078",
+      "title": "Bigg Boss Telugu 8 | Day 4 - Promo 2 | 'Ball Pattu Goal Kottu' Task For Contestants | Star Maa",
+      "url": "https://youtu.be/Tjso1SkG078?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/f9BYrV7lO-4",
+      "title": "Bigg Boss Telugu 8 | Day 5 - Promo 1 | 'Loop The Hoop' Challenge for Contestants | Star Maa",
+      "url": "https://youtu.be/f9BYrV7lO-4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/3YmcEyhrffc",
+      "title": "Bigg Boss Telugu 8 | Day 5 - Promo 2 | 'Bricks Balancing' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/3YmcEyhrffc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/GvBXDtJjqYE",
+      "title": "Bigg Boss Telugu 8 | Day 5 - Promo 3 | Contestants' Hilarious Fun in the House 😂 | Star Maa",
+      "url": "https://youtu.be/GvBXDtJjqYE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/T61euLXzQGs",
+      "title": "Bigg Boss Telugu 8 | Nagarjuna Highlights Contestants' Mistakes | Vinayaka Chavithi 2024 | Star Maa",
+      "url": "https://youtu.be/T61euLXzQGs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/VewWxsJm6Kw",
+      "title": "Bigg Boss Telugu 8 | Day 6 - Promo 2 | Nagarjuna’s Fury Shakes the House | StarMaa",
+      "url": "https://youtu.be/VewWxsJm6Kw?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/4l2AksaxRQk",
+      "title": "Bigg Boss Telugu 8 | Day 7 - Promo 1 | Non-Stop Fun with Nagarjuna | Star Maa",
+      "url": "https://youtu.be/4l2AksaxRQk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/FA-U3REAIEE",
+      "title": "Bigg Boss Telugu 8 | Day 7 - Promo 2 | Animals of House - Task | Star Maa",
+      "url": "https://youtu.be/FA-U3REAIEE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/MoSVWUu4V_c",
+      "title": "Bigg Boss Telugu 8 | Day 8 - Promo 1 | Bigg Boss Nomination Twist | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/MoSVWUu4V_c?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/xxg6nx1uREQ",
+      "title": "Bigg Boss Telugu 8 | Day 8 - Promo 2 | Hidden Conversations & Key Decisions | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/xxg6nx1uREQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/R4G0LzWvBe8",
+      "title": "Bigg Boss Telugu 8| Day 8 - Promo 3 | Nomination Drama intensifies🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/R4G0LzWvBe8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/rLF59JaCf0c",
+      "title": "Bigg Boss Telugu 8 | Day 9 - Promo 1 | Nomination tension takes over the BB House🔥| Star Maa",
+      "url": "https://youtu.be/rLF59JaCf0c?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/374lxkpjaJI",
+      "title": "Bigg Boss Telugu 8 | Day 9 - Promo 2 | Bigg Boss Game Changing Twist | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/374lxkpjaJI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/k3c31CfU8ag",
+      "title": "Bigg Boss Telugu 8 | Day 10 - Promo 1 | 'Lemon Pizza' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/k3c31CfU8ag?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/yd7kHgwE0GI",
+      "title": "Bigg Boss Telugu 8 | Day 10 - Promo 2 | BiggBoss Last Chance for Contestants | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/yd7kHgwE0GI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/oHXalC_34Ow",
+      "title": "Bigg Boss Telugu 8 | Day 10 - Promo 3 | Food Crisis in Bigg Boss House | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/oHXalC_34Ow?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/MrbFO4j2ehU",
+      "title": "Bigg Boss Telugu 8 | Day 11 - Promo 1 | Opportunity to Unlock the Prize Money! 😍🏆 | Star Maa",
+      "url": "https://youtu.be/MrbFO4j2ehU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/jPdIt60GsbM",
+      "title": "Bigg Boss Telugu 8 | Day 11- Promo 2 | Bigg Boss 'Waxing Challenge' | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/jPdIt60GsbM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/o-Nno7TIu9s",
+      "title": "Bigg Boss Telugu 8 | Day 11 - Promo 3 | A New Challenge for Contestants | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/o-Nno7TIu9s?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/K9KbFrfsoWE",
+      "title": "Bigg Boss Telugu 8 | Day 12 - Promo 1 | 'Spin The Bottle' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/K9KbFrfsoWE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/91078vWlWCU",
+      "title": "Bigg Boss Telugu 8 | Day 12 - Promo 2 | Bigg Boss' Emotional Surprise 💓 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/91078vWlWCU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/HpBa9zJRx1E",
+      "title": "Bigg Boss Telugu 8 | Day 12 - Promo 3 | Contestants Get Emotional | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/HpBa9zJRx1E?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/tXh1PAriwHE",
+      "title": "Bigg Boss Telugu 8 | Day 13 - Promo 2 | Which chief remains? 🤔😳 | Star Maa",
+      "url": "https://youtu.be/tXh1PAriwHE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/fOff9GhRVvM",
+      "title": "Bigg Boss Telugu 8 | Day 14 - Promo 1 | Nagarjuna ‘s 'Chitram Vichitram' Game | DisneyPlusHotstarTel",
+      "url": "https://youtu.be/fOff9GhRVvM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/OZZgTLjWFEY",
+      "title": "Bigg Boss Telugu 8 | Day 14 - Promo 2 | Bigg Boss Biggest Twist Ever | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/OZZgTLjWFEY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/6WZXWwecxrc",
+      "title": "Bigg Boss Telugu 8 | Day 15 - Promo 1 | Heated Nomination Debate | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/6WZXWwecxrc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/gZfAyyTKFos",
+      "title": "Bigg Boss Telugu 8 | Day 15 - Promo 2 | Nomination Drama Intensifies 🙌 | Star Maa",
+      "url": "https://youtu.be/gZfAyyTKFos?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/6bUlNCeZWzI",
+      "title": "Bigg Boss Telugu 8 | Day 16 - Promo 1 | 'Photo Pettu Aage Tatto' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/6bUlNCeZWzI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Xskxvmdyv9s",
+      "title": "Bigg Boss Telugu 8 | Day 16 - Promo 3 | 'Boorani Kottu Ration Pattu' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Xskxvmdyv9s?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/7r5axmJiaqU",
+      "title": "Bigg Boss Telugu 8 | Day 18 - Promo 1 | Tensions Explode in BB House 🔥🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/7r5axmJiaqU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/7VDwdOfEkds",
+      "title": "Bigg Boss Telugu 8 | Day 17 - Promo 2 | Prabhavathi 2.0 is HEREE🔥🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/7VDwdOfEkds?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/12DGmqaG-ko",
+      "title": "Bigg Boss Telugu 8 | Contestants engage in a heated debate after the Balloon Challenge | StarMaa",
+      "url": "https://youtu.be/12DGmqaG-ko?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/fqeLkQGoQv4",
+      "title": "Bigg Boss Telugu 8 | Day 18 - Promo 1 | Big Drama in BB House 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/fqeLkQGoQv4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/cAyM8MiYgO0",
+      "title": "Bigg Boss Telugu 8 | Day 18 - Promo 2 | 'Moving Platform' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/cAyM8MiYgO0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/DN-GCfpNIAQ",
+      "title": "Bigg Boss Telugu 8 | Day 19 - Promo 1 | Drastic Exit Option Shocks Contestants | Nagarjuna | StarMaa",
+      "url": "https://youtu.be/DN-GCfpNIAQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/yk1Ib8S5Jzs",
+      "title": "Bigg Boss Telugu 8 | Day 19 - Promo 2 | Who will be the next contender? | Nagarjuna| Star Maa",
+      "url": "https://youtu.be/yk1Ib8S5Jzs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/T8zLs1O2dSo",
+      "title": "Bigg Boss Telugu 8 | Contestants heated debate after the Egg Collecting task | StarMaa",
+      "url": "https://youtu.be/T8zLs1O2dSo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/0D8XBsxaR4s",
+      "title": "Bigg Boss Telugu 8 | Day 20 - Promo 1 | Nagarjuna's Red Card Shakes The House | Star Maa",
+      "url": "https://youtu.be/0D8XBsxaR4s?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/xIAMkM5TakU",
+      "title": "Bigg Boss Telugu 8 | Day 20 - Promo 2 | Who Made the Mistake? | Star Maa",
+      "url": "https://youtu.be/xIAMkM5TakU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/KGaBhOfw7II",
+      "title": "Bigg Boss Telugu 8 | Day 21 - Promo 1 | 'Set or Cut' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/KGaBhOfw7II?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Ji7zf0vX1yY",
+      "title": "Bigg Boss Telugu 8 | Day 21 - Promo 2 | 'Guess the Sound' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Ji7zf0vX1yY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/d2LDSmSO0-M",
+      "title": "Bigg Boss Telugu 8 | Day 21 - Promo 3 | 'Solve the Puzzle' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/d2LDSmSO0-M?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/VKszi1Iyzhk",
+      "title": "Bigg Boss Telugu 8 | Day 22 - Promo 1 | 'Foam Spray' challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/VKszi1Iyzhk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Z7f2KkJ_QXs",
+      "title": "Bigg Boss Telugu 8 | Day 22 - Promo 2 | Nominations Heat Up | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Z7f2KkJ_QXs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/dzQbQHqcQtc",
+      "title": "Bigg Boss Telugu 8 | Day 22 - Promo 3 | Intense Nomination Drama | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/dzQbQHqcQtc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/5iKmGU52CHY",
+      "title": "Bigg Boss Telugu 8 | Day 23 - Promo 1 | Emotional Breakdown in BB House | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/5iKmGU52CHY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/EdJSZEYS_gU",
+      "title": "Bigg Boss Telugu 8 | Day 23 - Promo 2 | Battle for Power in BB House | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/EdJSZEYS_gU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/f3raVDUTCxg",
+      "title": "Bigg Boss Telugu 8 | Day 24 - Promo 1 | Chief Selection Showdown in BB House | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/f3raVDUTCxg?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/QMzBBwqnnso",
+      "title": "Bigg Boss Telugu 8 | Day 24 - Promo 2 | Wildest Twist Ever🤯 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/QMzBBwqnnso?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/gSGpnUWmNDo",
+      "title": "Bigg Boss Telugu 8 | Day 24 - Promo 3 | Ball Ni Pattu Tower Lo Pettu Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/gSGpnUWmNDo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/BYR1HFn0ecY",
+      "title": "Bigg Boss Telugu 8 | Day 25 - Promo 1 | Interesting 'Balloon Task' | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/BYR1HFn0ecY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/71zqTlgnMBU",
+      "title": "Bigg Boss Telugu 8 | Day 25 - Promo 2 | Bigg Boss’ Unexpected Twist | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/71zqTlgnMBU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/56VXhAyEic8",
+      "title": "Bigg Boss Telugu 8 | Day 26 - Promo 1 | 'Guess The Sounds' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/56VXhAyEic8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/An6koim0nRE",
+      "title": "Bigg Boss Telugu 8 | Day 26 - Promo 2 | Non-Stop Comedy | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/An6koim0nRE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-O6HYFNuxUA",
+      "title": "Bigg Boss Telugu 8 | Day 26 - Promo 3 | Bigg Boss’ Game Changing Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/-O6HYFNuxUA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/_9nb3xY_Mfw",
+      "title": "Bigg Boss Telugu 8 | Day 27 - Promo 1 | 'Hero or Zero' Game | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/_9nb3xY_Mfw?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/2ni085gUgpI",
+      "title": "Bigg Boss Telugu 8 | Day 27 - Promo 2 |'Hero or Zero' Game Causes Chaos 👀 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/2ni085gUgpI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/QKH1dnCi8KQ",
+      "title": "Bigg Boss Telugu 8 | Day 28 - Promo 1 | 'Meeke Ankitam' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/QKH1dnCi8KQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/8BSVwyT56AY",
+      "title": "Bigg Boss Telugu 8 | Day 28 - Promo 2 | 'Tune Pattu Guess Kottu' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/8BSVwyT56AY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/A2IGTAGoWRY",
+      "title": "Bigg Boss Telugu 8 | Day 29 - Promo 1 | Nomination Sets The BB House on Fire🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/A2IGTAGoWRY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/JfIFRQtUf7U",
+      "title": "Bigg Boss Telugu 8 | Day 29 - Promo 2 | Contestants Engage in Intense Nominations👀 | Star Maa",
+      "url": "https://youtu.be/JfIFRQtUf7U?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/y4NeZ4ZnCDM",
+      "title": "Bigg Boss Telugu 8 | Day 30 - Promo 1 | Taalam Vidipinchu Tyre Ni Nadipinchu' Task | Star Maa",
+      "url": "https://youtu.be/y4NeZ4ZnCDM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/NwfmhsBdSLI",
+      "title": "Bigg Boss Telugu 8 | Day 30 - Promo 2 | 'Jagrathaga Naduvu Ledhante Padhthavu' Task | Star Maa",
+      "url": "https://youtu.be/NwfmhsBdSLI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/fYZCqgRI-o0",
+      "title": "Bigg Boss Telugu 8 | Day 30 - Promo 3 | 'Roll Baby Roll' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/fYZCqgRI-o0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/kvrm1nR2n_4",
+      "title": "Bigg Boss Telugu 8 | Day 31 - Promo 1 | 'Colour Colour Which Colour'? Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/kvrm1nR2n_4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/yAL6N-psTzo",
+      "title": "Bigg Boss Telugu 8 | Day 31 - Promo 2 | Bigg Boss Shocking Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/yAL6N-psTzo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/h7bg2-4JIN4",
+      "title": "Bigg Boss Telugu 8 | Day 31 - Promo 3 | Fight for Chief's Position | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/h7bg2-4JIN4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Ka1iGHNm4jQ",
+      "title": "Bigg Boss Telugu 8 | Day 32 - Promo 1 | New Chief in BB House 👑 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Ka1iGHNm4jQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/mGY79eeBwVQ",
+      "title": "Bigg Boss Telugu 8 | Day 32 - Promo 2 | Unexpected Eviction 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/mGY79eeBwVQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Svcx2_opjgk",
+      "title": "Bigg Boss Telugu 8 | Day 33 - Promo 1 | Hilarious 'Morning Masti Task' | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Svcx2_opjgk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/G1Iu4X_RQrc",
+      "title": "Bigg Boss Telugu 8 | Day 33 - Promo 2 | Confession Room Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/G1Iu4X_RQrc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/USnmvvHZeak",
+      "title": "Bigg Boss Telugu 8 | Day 33 - Day 3 | Bigg Boss Emotional Surprise | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/USnmvvHZeak?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/4Zcps9vEAWY",
+      "title": "Bigg Boss Telugu 8 | Day 34 - Promo 1 | Nagarjuna Fun with Contestants | Star Maa",
+      "url": "https://youtu.be/4Zcps9vEAWY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/tbY_sbDU9cA",
+      "title": "Bigg Boss Telugu 8 | Day 34 - Promo 2 | Nagarjuna Expose contestants Weaknesses | Star Maa",
+      "url": "https://youtu.be/tbY_sbDU9cA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/SsEtAOfRzME",
+      "title": "Bigg Boss Telugu 8 | Day 34 - Promo 3 | 'Hug and Punch' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/SsEtAOfRzME?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/BpieYiofLvU",
+      "title": "Bigg Boss Telugu 8 | Day 35 - Promo 1 | Wildcard Entries and Celebrities Surprises | Star Maa",
+      "url": "https://youtu.be/BpieYiofLvU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/eE3UEDYUrAo",
+      "title": "Bigg Boss Telugu 8 | Day 36 - Promo 1 | Non-stop Entertainment 🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/eE3UEDYUrAo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/rTgScIQLxcM",
+      "title": "Bigg Boss Telugu 8 | Day 36 - Promo 2 | Intense Nomination Drama | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/rTgScIQLxcM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/_SHHnEHFAbY",
+      "title": "Bigg Boss Telugu 8 | Day 37 - Promo 1 | Unexpected Nomination Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/_SHHnEHFAbY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/5UeNa9oObi8",
+      "title": "Bigg Boss Telugu 8 | Day 37 - Promo 2 | Groceries with a Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/5UeNa9oObi8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/thGn3rFUP0Q",
+      "title": "Bigg Boss Telugu 8 | Day 38 - Promo 1| 'Try Not to Laugh' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/thGn3rFUP0Q?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/iAOuEnRg9YQ",
+      "title": "Bigg Boss Telugu 8 | Day 38 - Promo 2 | Hotel Management Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/iAOuEnRg9YQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/a0sHnxUnBHc",
+      "title": "Bigg Boss Telugu 8 | Day 38 - Promo 1 | Non-stop Entertainment | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/a0sHnxUnBHc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/FfGqLzdXXoM",
+      "title": "Bigg Boss Telugu 8 | Day 39 - Promo 2 | 'Physical Strength' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/FfGqLzdXXoM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/wO-9OWr61qo",
+      "title": "Bigg Boss Telugu 8 | Day 39 - Promo 3 | 'Save The Water' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/wO-9OWr61qo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/j130CSmD5Dk",
+      "title": "Bigg Boss Telugu 8 | Day 40 - Promo | Mega chief Selection | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/j130CSmD5Dk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/RKTn3JBLkaE",
+      "title": "Bigg Boss Telugu 8 | Day 40 - Promo 2| Interesting challenge for Mega Chief Selection | Star Maa",
+      "url": "https://youtu.be/RKTn3JBLkaE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/AFi1UUiEVaE",
+      "title": "Bigg Boss Telugu 8 | Day 40 - Promo 3 | 'Balance' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/AFi1UUiEVaE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/JfML1xUKgoI",
+      "title": "Bigg Boss Telugu 8 | Day 42 - Promo 1 | 'Funny Dialogues' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/JfML1xUKgoI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ERaRGISnY1o",
+      "title": "Bigg Boss Telugu 8 | Day 41 - Promo 2 | Nagarjuna Reviews Contestants Gameplay 🤨 | Star Maa",
+      "url": "https://youtu.be/ERaRGISnY1o?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/7HbjF4Qo0Mk",
+      "title": "Bigg Boss Telugu 8 | Day 41 - Promo 3 | Who's the Gangster Nominated for Exit | Star Maa",
+      "url": "https://youtu.be/7HbjF4Qo0Mk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/UB-m1ofVhck",
+      "title": "Bigg Boss Telugu 8 | Day 42 - Promo 1 | Vijayadashmi Grand Celebration 🎉| DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/UB-m1ofVhck?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/VtK6l7LcJw0",
+      "title": "Bigg Boss Telugu 8 | Day 43 - Promo 1 | Contestants Lose Their Cool During Nominations | Star Maa",
+      "url": "https://youtu.be/VtK6l7LcJw0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/hQEdCO626FA",
+      "title": "Bigg Boss Telugu 8 | Day 43 - Promo 2 | Contestants intense face off During Nominations",
+      "url": "https://youtu.be/hQEdCO626FA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/vL8TA0dVrcc",
+      "title": "Bigg Boss Telugu 8 | Day 44 - Promo 1 | Nomination Clash Over Unfair Game Play | DisneyPlusHotstar",
+      "url": "https://youtu.be/vL8TA0dVrcc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/dxGDaI_jOK4",
+      "title": "Bigg Boss Telugu 8 | Day 44 - Promo 2 | Friendships Broken and Tears Shed | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/dxGDaI_jOK4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/bi59q_S2uhk",
+      "title": "Bigg Boss Telugu 8 | Day 45 - Promo 1 | Full On Masti in BB House 🤣 | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/bi59q_S2uhk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/YIONOe_Gwng",
+      "title": "Bigg Boss Telugu 8 | Day 45 - Promo 2 | Over Smart Phones v/s Super Chargers Challenge",
+      "url": "https://youtu.be/YIONOe_Gwng?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/wiuzbhm0Yfo",
+      "title": "Bigg Boss Telugu 8 | Day 46 - Promo 1 | Shocking Twist for the Super chargers 😳 | Star Maa",
+      "url": "https://youtu.be/wiuzbhm0Yfo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/8vPZ3dcrm28",
+      "title": "Bigg Boss Telugu 8 | Day 45 - Promo 2 | Clash Among Over Smart Charges Team | DisneyPlusHotstarTel",
+      "url": "https://youtu.be/8vPZ3dcrm28?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/pGyVFv2aeX0",
+      "title": "Bigg Boss Telugu 8 | Day 47 - Promo 1 | 'Cushion' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/pGyVFv2aeX0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/iGk8m4OTpJY",
+      "title": "Bigg Boss Telugu 8 | Day 47 - Promo 2 | 'Hair Cut' Challenge 😳😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/iGk8m4OTpJY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/yF7l98ff2Go",
+      "title": "Bigg Boss Telugu 8 | Day 47 - Promo 3 | 'Pattuko ledha Thappuko' Challenge | DisneyPlusHotstarTel",
+      "url": "https://youtu.be/yF7l98ff2Go?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/c5fSVPIwylI",
+      "title": "Bigg Boss Telugu 8 | Day 48 - Promo 1 | BB Times Headlines Nomination | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/c5fSVPIwylI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/VUHMcqwj82I",
+      "title": "Bigg Boss Telugu 8 Day 48 -Promo 2 | Nagarjuna Highlights Contestants with Candid Feedback | StarMaa",
+      "url": "https://youtu.be/VUHMcqwj82I?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/S2zliwAXcds",
+      "title": "Bigg Boss Telugu 8 | Day 49 - Promo 1 | 'Guess The Movie Name' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/S2zliwAXcds?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/BMe1gz53tCc",
+      "title": "Bigg Boss Telugu 8 | Day 49 - Promo 2 | 'Dialogue Dedication' Game | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/BMe1gz53tCc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/1klyCnFxaFI",
+      "title": "Bigg Boss Telugu 8 | Day 49 - Promo 3 | Hilarious Fan Memes 🤣🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/1klyCnFxaFI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/FuNGy--JZ74",
+      "title": "Bigg Boss Telugu 8 | Day 50 - Promo 1 | Nomination Unmasked Friendship 😳 | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/FuNGy--JZ74?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/rCkfx-X7p24",
+      "title": "Bigg Boss Telugu 8 | Day 50 - Promo 2 | Peak nominations drama in the house! 😳 | Nagarjuna | StarMaa",
+      "url": "https://youtu.be/rCkfx-X7p24?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/xF4K2AoJT4Q",
+      "title": "Bigg Boss Telugu 8 | Day 50 - Promo 3 | Contestants heated debates during nominations! 🔥 | Star Maa",
+      "url": "https://youtu.be/xF4K2AoJT4Q?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/CShhlteRyPs",
+      "title": "Bigg Boss Telugu 8 | Day 51 - Promo 1 | Heated Debate During Nomination🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/CShhlteRyPs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ScvNCzwp3OE",
+      "title": "Bigg Boss Telugu 8 | Day 51 - Promo 2 | Contestants Lose Their Cool 😳😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/ScvNCzwp3OE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/W2bd7ziEjuk",
+      "title": "Bigg Boss Telugu 8 | Day 52 - Promo 1 | Unlimited Fun and Laughter 🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/W2bd7ziEjuk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/MKfItSXMFFU",
+      "title": "Bigg Boss Telugu 8 | Day 52 - Promo 2 | Scary Ghost Prank 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/MKfItSXMFFU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/99_NqcrVZfY",
+      "title": "Bigg Boss Telugu 8 | Avinash and Prithviraj intense debate during nominations | Star Maa",
+      "url": "https://youtu.be/99_NqcrVZfY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/FAzvgPEr8Ts",
+      "title": "Bigg Boss Telugu 8 | Day 53 - Promo 1 | 'Pattuko Cart Lo Pettuko' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/FAzvgPEr8Ts?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/0V23ZM8kZS4",
+      "title": "Bigg Boss Telugu 8 | Day 53 - Promo 2 | 'Virus' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/0V23ZM8kZS4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/6YIof97N12E",
+      "title": "Bigg Boss Telugu 8 | Day 53 - Promo 3 | Clans Secretly Discuss Game Strategy | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/6YIof97N12E?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-i2wIdYc3Fo",
+      "title": "Bigg Boss Telugu 8 | Day 54 - Promo 1 | 'Meelo Evaru Telivaina Vaaru' Task 🧠 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/-i2wIdYc3Fo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/bhaAt1IrL5o",
+      "title": "Bigg Boss Telugu 8 | Day 54 - Promo 2 | Who will be the Next Mega Chief ? | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/bhaAt1IrL5o?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/cdZCZkMwbcA",
+      "title": "Bigg Boss Telugu 8 | Day 55 - Promo 1 | Nagarjuna Highlights Nomination Mistakes😳| DisneyPlusHotstar",
+      "url": "https://youtu.be/cdZCZkMwbcA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/FT7lM-4TKzQ",
+      "title": "Bigg Boss Telugu 8 | Day 55 - Promo 2 | Suriya Lights Up the Stage with Nagarjuna! | Star Maa",
+      "url": "https://youtu.be/FT7lM-4TKzQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/vDu-h8VKw0Q",
+      "title": "Bigg Boss Telugu 8 | Day 56 - Promo 1 | Diwali Dhamaka in Bigg Boss House 💥🎉 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/vDu-h8VKw0Q?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ha6NmxpMPYA",
+      "title": "Bigg Boss Telugu 8 | Day 56 - Promo 2 | 'Chopsticks' Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/ha6NmxpMPYA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/_NWquKpKBy0",
+      "title": "Bigg Boss Telugu 8 | Day 56 - Promo 1 | Contestants Unexpected Emotional Moment 🥹 | Nagarjuna",
+      "url": "https://youtu.be/_NWquKpKBy0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/sg5s-7-Yc6s",
+      "title": "Bigg Boss Telugu 8 | Day 57 - Promo 2 | Shocking Nomination Twist 😳 | Nagarjuna | DisneyPlusHotstar",
+      "url": "https://youtu.be/sg5s-7-Yc6s?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/TgfIQ221axM",
+      "title": "Bigg Boss Telugu 8 | Day 57 - Promo 3 | Game Changing Nomination Twist 😳 | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/TgfIQ221axM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/xgWFb6UqUj0",
+      "title": "Bigg Boss Telugu 8 | Day 58 - Promo 1 | 'BB Intiki Daredi' Task | Nagarjuna | DisneyPlusHotstarTel",
+      "url": "https://youtu.be/xgWFb6UqUj0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/SZZPT8NnXpk",
+      "title": "Bigg Boss Telugu 8 | Day 58 - Promo 2 | 'Panipattu Yuddham' Challenge 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/SZZPT8NnXpk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/qAms7eBLpn8",
+      "title": "Bigg Boss Telugu 8 | Day 59 - Promo 1 | Contestants Clash During Panipat Yuddham Task 😳 | Star Maa",
+      "url": "https://youtu.be/qAms7eBLpn8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/jixvMCZyGsQ",
+      "title": "Bigg Boss Telugu 8 | Day 59 - Promo 2 | 'Sleeping Race' Challenge 🔥| Nagarjuna | DisneyPlusHotstar",
+      "url": "https://youtu.be/jixvMCZyGsQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/g1pEaLIBsvk",
+      "title": "Bigg Boss Telugu 8 | Day 59 - Promo 3 | 'Poison Apple' Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/g1pEaLIBsvk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ZSzof6vrDYM",
+      "title": "Bigg Boss Telugu 8 | Day 60 - Promo 1 | Contestants Transformation into Kids 🤣 | Star Maa",
+      "url": "https://youtu.be/ZSzof6vrDYM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/WK0J48TrEYw",
+      "title": "Bigg Boss Telugu 8 | Day 60 - Promo 2 | ' Thaado Pedo’ task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/WK0J48TrEYw?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Obur1MbZ5lc",
+      "title": "Bigg Boss Telugu 8 | Day 60 - Promo 3 | \" Thiruguthune Undu Geliche Varaku\" Task 🔥 | Star Maa",
+      "url": "https://youtu.be/Obur1MbZ5lc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/psbb_LuRVZk",
+      "title": "Bigg Boss Telugu 8 | Day 61 - Promo 1 | Diwali Grand Celebration 🪔🎇| Diwali 2024 | DisneyPlusHotstar",
+      "url": "https://youtu.be/psbb_LuRVZk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/9crOOaWK5xk",
+      "title": "Bigg Boss Telugu 8 | Day 61 - Promo 2 | Contestants' Most Emotional & Happy Memories 💖",
+      "url": "https://youtu.be/9crOOaWK5xk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/O2xq8kq5EFc",
+      "title": "Bigg Boss Telugu 8 | Day 61 - Promo 3 | Bigg Boss New Challenge for Food 💥| Star Maa",
+      "url": "https://youtu.be/O2xq8kq5EFc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/sidCeATFG3c",
+      "title": "Bigg Boss Telugu 8 | Day 62 - Promo 1 | Nagarjuna Exposes Contestants Shocking Blunders 😳",
+      "url": "https://youtu.be/sidCeATFG3c?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ciDEIw-3mfY",
+      "title": "Bigg Boss Telugu 8 | Day 62 - Promo 2 | Nagarjuna Highlights contestants Relationship 😳",
+      "url": "https://youtu.be/ciDEIw-3mfY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/PG8_MCyiJyQ",
+      "title": "Bigg Boss Telugu 8 | Day 63 - Promo 1 | 'Guess The Song' | Nagarjuna | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/PG8_MCyiJyQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/pj4iQ9Ps05Q",
+      "title": "Bigg Boss Telugu 8 | Day 63 - Promo 2 | 'Vegetable Juice' challenge 😃| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/pj4iQ9Ps05Q?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/VwZwTteamic",
+      "title": "Bigg Boss Telugu 8 | Day 64 - Promo 1 | Nomination Drama Begins 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/VwZwTteamic?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/FQ0pi1sF6h0",
+      "title": "Bigg Boss Telugu 8 | Day 64 - Promo 2 | Fake Faces Spark Intense Nominations 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/FQ0pi1sF6h0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/HBaSA4ICOvk",
+      "title": "Bigg Boss Telugu 8 | Day 64 - Promo 3 | Contestants Expose Each Other's Task Mistakes | Star Maa",
+      "url": "https://youtu.be/HBaSA4ICOvk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Xf-uszoJ5j0",
+      "title": "Bigg Boss Telugu 8 | Day 65 - Promo 1 | 'Lakdi Ka Pool' Challenge 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Xf-uszoJ5j0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/eF_3X0A6cW0",
+      "title": "Bigg Boss Telugu 8 | Day 65 - Promo 2 | 'Shape Your Future ' Challenge 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/eF_3X0A6cW0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/kMppjd9_ahU",
+      "title": "Bigg Boss Telugu 8 | Day 66 - Promo 1 | 'Key Ni Pattu Contendership Gelichetattu' Taks | Star Maa",
+      "url": "https://youtu.be/kMppjd9_ahU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/CMCf0YpW1-s",
+      "title": "Bigg Boss Telugu 8 | Day 66 - Promo 3 | Bigg Boss Sweet Twist 😋| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/CMCf0YpW1-s?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ZRRRcZulL-o",
+      "title": "Bigg Boss Telugu 8 | Day 67 - Promo 1 | 'Screw Ni Tippu' Challenge🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/ZRRRcZulL-o?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/rDgl49NX0dU",
+      "title": "Bigg Boss Telugu 8 | Day 67 - Promo 2 | Contestants Funny Audition 🤣🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/rDgl49NX0dU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/yytlFVJ5-qA",
+      "title": "Bigg Boss Telugu 8 | Day 67 - Promo 3 | 'Moota Mukhyam' Challenge 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/yytlFVJ5-qA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/CHQJt4GKUiM",
+      "title": "Bigg Boss Telugu 8 | Day 68 - Promo 1 | Contestants Heated Clash 🔥😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/CHQJt4GKUiM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/iqFxzAYDBag",
+      "title": "Bigg Boss Telugu 8 | Day 68 - Promo 2 | Eviction Battle Started 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/iqFxzAYDBag?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/L-vtkz2qwZY",
+      "title": "Bigg Boss Telugu 8 | Day 68 - Promo 3 | Bigg Boss Personal Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/L-vtkz2qwZY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/92BlXFbVyak",
+      "title": "Bigg Boss Telugu 8 | Day 69 - Promo 1 | Eviction Task Failure 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/92BlXFbVyak?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/sxIUnbNlfjE",
+      "title": "Bigg Boss Telugu 8 | Day 69 - Promo 2 | Contestants name the worst player 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/sxIUnbNlfjE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/lEHZYCvgHm0",
+      "title": "Bigg Boss Telugu 8 | Day 70 - Promo 1 | Unforgettable Hilarious Moments 🤣| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/lEHZYCvgHm0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/vJ3oHfSi3nA",
+      "title": "Bigg Boss Telugu 8 | Day 70 - Promo 2 | Unlimited Fun with Varun Tej 🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/vJ3oHfSi3nA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/LVpvYMdKgbU",
+      "title": "Bigg Boss Telugu 8 | Day 70 - Promo 3 | Food Stealers in The House 🤣🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/LVpvYMdKgbU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/68c2wJiNebk",
+      "title": "Bigg Boss Telugu 8 | Day 71 - Promo 1 | 'Smash The Painting' Task 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/68c2wJiNebk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-SLxeG2dQgo",
+      "title": "Bigg Boss Telugu 8 | Day 71 - Promo 2 | Explosive Nomination Drama 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/-SLxeG2dQgo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/TOkafMY-ZnE",
+      "title": "Bigg Boss Telugu 8 | Day 72 - Promo 1 | A Beautiful Surprise for Nabeel 💖 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/TOkafMY-ZnE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/0fD8ezKWwlI",
+      "title": "Bigg Boss Telugu 8 | Day 72 - Promo 2 | Adorable Surprise for Rohini 💖 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/0fD8ezKWwlI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/r23YfJbIzsY",
+      "title": "Bigg Boss Telugu 8 | Day 73 - Promo 1 | An Emotional Surprise for Yashmi ❤️ | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/r23YfJbIzsY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ezitYAPdROM",
+      "title": "Bigg Boss Telugu 8 | Day 73 - Promo 2 | An Emotional Surprise for Nikhil ❤️ | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/ezitYAPdROM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/udBqMf9TvhA",
+      "title": "Bigg Boss Telugu 8 | Day 73 - Promo 3 | Unexpected Surprises for Avinash ❤️ | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/udBqMf9TvhA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/PD3tEZU2V-0",
+      "title": "Bigg Boss Telugu 8 | Day 74 - Promo 1 | Bigg Boss Surprise for Vishnu Priya❤️ | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/PD3tEZU2V-0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/fuli-hFZlWk",
+      "title": "Bigg Boss Telugu 8 | Day 74 - Promo 2 | Emotional Surprise for Prithvi 🥺 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/fuli-hFZlWk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/U6Y0tHArv74",
+      "title": "Bigg Boss Telugu 8 | Day 75 - Promo 1 | An Unforgettable Surprise for Prerana 💖| Star Maa",
+      "url": "https://youtu.be/U6Y0tHArv74?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Lqws3O8SY1E",
+      "title": "Bigg Boss Telugu 8 | Day 75 - Promo 2 | Big surprise for Tasty Teja! 😍💖 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Lqws3O8SY1E?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/7uq6rs2q9q0",
+      "title": "Bigg Boss Telugu 8 | Day 76 - promo 1 | Bigg Boss's Surprise for Contestants😳 | Nagarjuna | StarMaa",
+      "url": "https://youtu.be/7uq6rs2q9q0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/PiLY_rDZoJ8",
+      "title": "Bigg Boss Telugu 8 | Day 76 - Promo 2 | Nagarjuna's Unlimited fun with Contestants 🤣 | Star Maa",
+      "url": "https://youtu.be/PiLY_rDZoJ8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/GwQ9InN9YF8",
+      "title": "Bigg Boss Telugu 8 | Day 77 - Promo 1 | Non-stop Fun and Entertainment 🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/GwQ9InN9YF8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/cQLdzWiOofo",
+      "title": "Bigg Boss Telugu 8 | Day 77 - Promo 2 | 'Movie Tree' Challenge 🎬 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/cQLdzWiOofo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-Ik2OFCZmUM",
+      "title": "Bigg Boss Telugu 8 | Day 78 - Promo 1 | Bigg Boss Nomination Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/-Ik2OFCZmUM?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/0n2ADtRe5Z4",
+      "title": "Bigg Boss Telugu 8 | Day 78 - Day Promo 2 | Unexpected Nomination Twist 😳 | DisneyPlusHotstarTelugu",
+      "url": "https://youtu.be/0n2ADtRe5Z4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-Qp8PoiWM4c",
+      "title": "Bigg Boss Telugu 8 | Day 79 - Promo 1 | Intense Nomination Drama 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/-Qp8PoiWM4c?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/23wn-vEi4OA",
+      "title": "Bigg Boss Telugu 8 - Day 79 Promo 2 | Kirrak Seetha & Naga Manikanta Shake things up 🔥 | Star Maa",
+      "url": "https://youtu.be/23wn-vEi4OA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/0Zf5O2OWKaA",
+      "title": "Bigg Boss Telugu 8 | Day 80 - Promo 1 | 'Save the T-shirt' Challenge 💥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/0Zf5O2OWKaA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/nOlAKGUwBKU",
+      "title": "Bigg Boss Telugu 8 | Day 80 - Promo 2 | Contestants Non-stop Fun 🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/nOlAKGUwBKU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/EsrxOZi_Ujg",
+      "title": "Bigg Boss Telugu 8 | Day 80 - Promo 3 | Who Wins the 'Save the T-Shirt' Challenge? | Star Maa",
+      "url": "https://youtu.be/EsrxOZi_Ujg?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/m08XXGJkdQY",
+      "title": "Bigg Boss Telugu 8 | Day 81 - Promo 1 | Contestants Clash over Nominations 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/m08XXGJkdQY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/dXnJ8ZoZ1-c",
+      "title": "Bigg Boss Telugu 8 | Day 81 - Promo 2 | Non-stop Entertainment with Vishwak Sen 🤣 | Star Maa",
+      "url": "https://youtu.be/dXnJ8ZoZ1-c?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/B0BoJyu5tUU",
+      "title": "Bigg Boss Telugu 8 | Day 81 - Promo 3 | Pattu Vadalani Vikramarkulu Task | Star Maa",
+      "url": "https://youtu.be/B0BoJyu5tUU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/00vgaj6TDE4",
+      "title": "Bigg Boss Telugu 8 | Day 82 - Promo 1 | 'Auto Lo Prayanam' Challenge 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/00vgaj6TDE4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/PdOLXCyVTjc",
+      "title": "Bigg Boss Telugu 8 | Day 83 - Promo 1 | Nagarjuna reveals Contestants' Mistakes! 💥| Star Maa",
+      "url": "https://youtu.be/PdOLXCyVTjc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/A6V2yisselE",
+      "title": "Bigg Boss Telugu 8 | Day 83 - Promo 2 | Contestants Clarify Mistakes 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/A6V2yisselE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/HfdrqcC_FBI",
+      "title": "Bigg Boss Telugu 8 | Day 83 - Promo 3 | 'Snake and Ladders' Game 🤣 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/HfdrqcC_FBI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/a_ikoCfkhyA",
+      "title": "Bigg Boss Telugu 8 | Day 84 - Promo 1 | 'Guess The Dialogue' Task 😅 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/a_ikoCfkhyA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/3frtDevLMus",
+      "title": "Bigg Boss Telugu 8 | Day 84 - Promo 2 | Complaint Time in Bigg Boss House | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/3frtDevLMus?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/rXcFweCpa7w",
+      "title": "Bigg Boss Telugu 8 | Day 85 - Promo 1 | Nomination Twist 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/rXcFweCpa7w?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/qmCSVOnibj8",
+      "title": "Bigg Boss Telugu 8 | Day 85 - Promo 2 | Nomination Reasons Shakes the House 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/qmCSVOnibj8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/EwkjfAAeOLs",
+      "title": "Bigg Boss Telugu 8 | Day 85 - Promo 3 | Nominations Spark Heated Debates 🔥| Star Maa",
+      "url": "https://youtu.be/EwkjfAAeOLs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/_fpwp3ygkwU",
+      "title": "Bigg Boss Telugu 8 | Day 86 - Promo 1 | Special Guests and Existing New Task 🔥 | Nagarjuna | StarMaa",
+      "url": "https://youtu.be/_fpwp3ygkwU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/MkhNcpYcYgs",
+      "title": "Bigg Boss Telugu 8 | Day 86 - Promo 2 | 'Tulabharam' Challenge 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/MkhNcpYcYgs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Vs3-_TdfEEU",
+      "title": "Bigg Boss Telugu 8 | Day 88 - Promo 1 | 'Spin The Bottle' Game 🤣| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Vs3-_TdfEEU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/jEMaE2d8OYY",
+      "title": "Bigg Boss Telugu 8 | Day 88 - Promo 2 | 'Jaaruthu Geluvu' Task 🔥 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/jEMaE2d8OYY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/TbImwaKqizo",
+      "title": "Bigg Boss Telugu 8 | Day 88 - Promo 3 | Who gets the Black Badge ? | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/TbImwaKqizo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/hKxD5OyingQ",
+      "title": "Bigg Boss Telugu 8 | Day 89 - Promo 1 | Who gets the Ticket to Finale ? | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/hKxD5OyingQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/OxaWe_J7l3E",
+      "title": "Bigg Boss Telugu 8 | Day 89 - Promo 2 | 'Gurthu Pattu Ghanta Kottu' Task 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/OxaWe_J7l3E?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/nBxhB8QosUw",
+      "title": "Bigg Boss Telugu 8 | Day 89 - Promo 3 | 'Kevalam Okka Adugu Dooram' Challenge 🔥| Nagarjuna | StarMaa",
+      "url": "https://youtu.be/nBxhB8QosUw?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/iU6ddQ98HAA",
+      "title": "Bigg Boss Telugu 8 | Day 90 - Promo 1 | Weekend Alert - Double Elimination This Week! 🔥 | Star Maa",
+      "url": "https://youtu.be/iU6ddQ98HAA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/G5We_dhH7bE",
+      "title": "Bigg Boss Telugu 8 | Day 90 - Promo 2 | Tough Choice for Contestants 😳 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/G5We_dhH7bE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/17MR_6TWwLI",
+      "title": "Bigg Boss Telugu 8 | Day 91 - Promo 1 | 'Guess the Song' Game 🎶😅 | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/17MR_6TWwLI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/iTDzi1o8LU8",
+      "title": "Bigg Boss Telugu 8 | Day 91 - Promo 2 | 'Blind Fold Musical Chairs' Task 🔥| Nagarjuna | Star Maa",
+      "url": "https://youtu.be/iTDzi1o8LU8?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/nflG0iUR8os",
+      "title": "Bigg Boss Telugu 8 | Day 91 - Promo 3 | Nagarjuna Has Fun with Contestants 🔥 | Star Maa",
+      "url": "https://youtu.be/nflG0iUR8os?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/pG9qPWiqdT0",
+      "title": "Bigg Boss Telugu 8 | Day 92 - Promo 1 | Avinash & Gautham’s Hilarious Fun in the House 😂 | Star Maa",
+      "url": "https://youtu.be/pG9qPWiqdT0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/K4nbesWFmXw",
+      "title": "Bigg Boss Telugu 8 | Day 92 - Promo 2 | Burn the Frame task | Star Maa",
+      "url": "https://youtu.be/K4nbesWFmXw?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/5DXcTW1go90",
+      "title": "Bigg Boss Telugu 8 | Day 93 - Promo 1 | Contestants Lock Heads Over Gameplay & Strategy | Star Maa",
+      "url": "https://youtu.be/5DXcTW1go90?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/rSgRRw0yxcI",
+      "title": "Bigg Boss Telugu 8 | Day 93 - Promo 2 | Tak Takatak Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/rSgRRw0yxcI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-R2kvRkBa90",
+      "title": "BiggBossTelugu 8 | Day 93 -Promo 3 | Sekhar Master’s Fun Tasks with Contestants | Pushpa 2 | StarMaa",
+      "url": "https://youtu.be/-R2kvRkBa90?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/Nmr9tQ0NCQk",
+      "title": "Bigg Boss Telugu 8 | Day 94 - Promo 1 | Cross Paths Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/Nmr9tQ0NCQk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/6B214WwEdcI",
+      "title": "Bigg Boss Telugu 8 | Day 94 - Promo 2 | Turf War Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/6B214WwEdcI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/LBBrI6MBjmQ",
+      "title": "Bigg Boss Telugu 8 | Day 95 - Promo 1 | Power Flag Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/LBBrI6MBjmQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/-vOMyo8DAt4",
+      "title": "Bigg Boss Telugu 8 | Day 95 - Promo 2 | ' Band Jammers ' Bring Unlimited Fun | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/-vOMyo8DAt4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/wH3GAlpDJkQ",
+      "title": "Bigg Boss Telugu 8 | Day 96 - Promo 1 | Rangu Paduddi Challenge | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/wH3GAlpDJkQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/mNcU4UQrFaA",
+      "title": "Bigg Boss Telugu 8 | Day 96 - Promo 2 | Ohmkar enters the Bigg Boss House | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/mNcU4UQrFaA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/RZGeD6AxEdI",
+      "title": "Bigg Boss Telugu 8 | Day 97 - Promo 1 | Shocking Twist : Double elimination this week | Star Maa",
+      "url": "https://youtu.be/RZGeD6AxEdI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/HZCYx6XYs2E",
+      "title": "Bigg Boss Telugu 8 | Day 97 - Promo 2 | Nagarjuna Highlights Contestants' Mistakes 😳 | Star Maa",
+      "url": "https://youtu.be/HZCYx6XYs2E?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/tFj0nt_3lSw",
+      "title": "Bigg Boss Telugu 8 | Day 98 - Promo 1 | ‘Reverse Gear’ Fun Task | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/tFj0nt_3lSw?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/zZLGDinsofI",
+      "title": "Bigg Boss Telugu 8 | Day 98 - Promo 2 | ‘Guess the Character’ Fun Game | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/zZLGDinsofI?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/4hL2FvKpgi4",
+      "title": "Bigg Boss Telugu 8 | Day 99 - Promo 1 | Your Favourite Stars Enter the Bigg Boss House | Star Maa",
+      "url": "https://youtu.be/4hL2FvKpgi4?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/4Yj2rTXIyiY",
+      "title": "Bigg Boss Telugu 8 | Day 99 - Promo 2 | Contestants Play 'Hide & Seek' Fun Game | Star Maa",
+      "url": "https://youtu.be/4Yj2rTXIyiY?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/PpYpRqWGPOQ",
+      "title": "Bigg Boss Telugu 8 | Day 100 - Promo 1 | Brahmamudi’s Kavya Steps Into the House | Star Maa",
+      "url": "https://youtu.be/PpYpRqWGPOQ?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/p8OzxhSxqhk",
+      "title": "Bigg Boss Telugu 8 | Day 100 - Promo 2 | Special Guests Ganga & Gangadhar Enter the House | Star Maa",
+      "url": "https://youtu.be/p8OzxhSxqhk?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ta55yTvGcvo",
+      "title": "Bigg Boss Telugu 8 | Day 101 - Promo 1 | Chanti & Sindhura Enter the Bigg Boss House | Star Maa",
+      "url": "https://youtu.be/ta55yTvGcvo?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/JCkx9RzUMLA",
+      "title": "Bigg Boss Telugu 8 | Day 101 - Promo 2 | Vaishnavi & Krishna Step Into the Bigg Boss House | StarMaa",
+      "url": "https://youtu.be/JCkx9RzUMLA?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/_VTuQflidqc",
+      "title": "Bigg Boss Telugu 8 | Day 102 - Promo 1 | Biggest Surprise for Gautham Krishna | Star Maa",
+      "url": "https://youtu.be/_VTuQflidqc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/tolC1kxmZLU",
+      "title": "Bigg Boss Telugu 8 | Day 102 -Promo 2 | Avinash Gets an Incredible Surprise from Bigg Boss | StarMaa",
+      "url": "https://youtu.be/tolC1kxmZLU?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/ca0ODG5yFSs",
+      "title": "Bigg Boss Telugu 8 | Day 103 - Promo 1 | Bigg Boss Praises Nikhil's Leadership Qualities | Star Maa",
+      "url": "https://youtu.be/ca0ODG5yFSs?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/UwzIJBmlYKg",
+      "title": "Bigg Boss Telugu 8 | Day 103 - Promo 2 | Bigg Boss Praises Prerana's Strong Determination | Star Maa",
+      "url": "https://youtu.be/UwzIJBmlYKg?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/J1cZ72G9z-s",
+      "title": "Bigg Boss Telugu 8 | Day 103 -Promo 3 | Bigg Boss Praises Nabeel for His Strategic Gameplay| StarMaa",
+      "url": "https://youtu.be/J1cZ72G9z-s?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/UCLc04xqPz0",
+      "title": "Bigg Boss Telugu 8 | Day 104 - Promo 1 | Suma Kanakala Enters the Bigg Boss House | Star Maa",
+      "url": "https://youtu.be/UCLc04xqPz0?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/yY-H3mUG-do",
+      "title": "Bigg Boss Telugu 8 | Day 104 - Promo 2 | Suma Kanakala Plays Fun Tasks with Contestants | Star Maa",
+      "url": "https://youtu.be/yY-H3mUG-do?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/mGlAf06uFSE",
+      "title": "Bigg Boss Telugu 8 | Day 104 - Promo 3 | Contestants Share Their Heartfelt Stories | Star Maa",
+      "url": "https://youtu.be/mGlAf06uFSE?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/QGvQVJH1pvc",
+      "title": "Bigg Boss Telugu 8 | Bigg Boss Grand Finale Celebrations | Tonight at 7:00 PM | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/QGvQVJH1pvc?feature=shared"
+    },
+    {
+      "eUrl": "https://www.youtube.com/embed/tW_bscucTwA",
+      "title": "Bigg Boss Telugu 8 | Vijay Sethupathi and Ram Charan Grand Entry | Nagarjuna | Star Maa",
+      "url": "https://youtu.be/tW_bscucTwA?feature=shared"
+    }
+  ],
+  "winnerDetails": [
+    {
+      "desc": "Bigg Boss Season 8",
+      "img": "assets/contestants/9.png",
+      "title": "Winner Nikhil"
+    },
+    {
+      "desc": "Nominated : 10 times \\n Trophy winner with prize money of 10cr",
+      "img": "assets/contestants/20.jpg",
+      "title": "Runner Goutham"
+    },
+    {
+      "desc": "Nominated : 10 times \\n Trophy winner with prize money of 10cr",
+      "img": "assets/contestants/14.png",
+      "title": "Third Nabeel "
+    }
+  ]
+}

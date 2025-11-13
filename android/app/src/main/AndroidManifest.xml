@@ -7,9 +7,9 @@
 
   <application
     android:allowBackup="true"
-    android:icon="@mipmap/biggboss_logo"
+    android:icon="@mipmap/bb_new_logo"
     android:label="@string/app_name"
-    android:roundIcon="@mipmap/biggboss_logo_round"
+    android:roundIcon="@mipmap/bb_new_logo"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
     <activity
@@ -43,7 +43,7 @@
       android:value="@string/admob_app_id" />
     <meta-data
       android:name="com.google.firebase.messaging.default_notification_icon"
-      android:resource="@drawable/logo" />
+      android:resource="@mipmap/bb_new_logo" />
     <meta-data
       android:name="com.google.firebase.messaging.default_notification_color"
       android:resource="@color/colorAccent" />
