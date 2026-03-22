@@ -1,6 +1,6 @@
 import { Component, NgZone, ViewChild } from '@angular/core';
 import { Preferences } from '@capacitor/preferences';
-import { AlertController, IonicSafeString, LoadingController } from '@ionic/angular';
+import { AlertController, IonicSafeString, LoadingController, ModalController } from '@ionic/angular';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Network } from '@capacitor/network';
 import { AdMob, AdmobConsentStatus, AdMobError } from '@capacitor-community/admob';
@@ -8,6 +8,7 @@ import { BannerAdOptions, BannerAdSize, BannerAdPosition, BannerAdPluginEvents, 
 import { AdOptions, AdLoadInfo, InterstitialAdPluginEvents } from '@capacitor-community/admob';
 import { RewardAdOptions, RewardAdPluginEvents, AdMobRewardItem } from '@capacitor-community/admob';
 import { ImageCacheService } from '../services/image-cache.service';
+import { CustomAdModalComponent } from './custom-ad-modal.component';
 
 import { child, get, getDatabase, limitToLast, onValue, query, ref, set } from "firebase/database";
 
@@ -103,7 +104,7 @@ export class HomePage {
   shareBtn: boolean = false;
   winnerSection: boolean = false;
 
-  version: number = 28;
+  version: number = 29;
   updateAlert!: Promise<HTMLIonAlertElement>;
   firstLoad: boolean = true;
   liveSection: boolean = true;
@@ -126,6 +127,9 @@ export class HomePage {
   playingCount: number = 0
   isFullScreen: boolean = false;
   winnerDetails: any = []
+  customAdData: any = null;
+  customAdDelay: number = 10000; // Default 10 seconds
+  isCustomAdPopupOpen: boolean = false;
 
 
   constructor(
@@ -133,7 +137,8 @@ export class HomePage {
     public domSanitizer: DomSanitizer,
     private alertCtrl: AlertController,
     private ngZone: NgZone,
-    private imageCacheService: ImageCacheService) {
+    private imageCacheService: ImageCacheService,
+    private modalController: ModalController) {
     this.networkStatus();
   }
 
@@ -296,6 +301,7 @@ export class HomePage {
       }
 
       this.setupAds()
+      this.getCustomAdDelay()
     });
   }
 
@@ -519,7 +525,7 @@ export class HomePage {
         this.rewardVideo()
       },1000)
     }else{
-      if(this.ads_control["interitial_ad"]){
+      if(this.ads_control["interitial_ad"] && !this.isCustomAdPopupOpen){
         setTimeout(() => {
           this.interstitial()
         },1000)
@@ -1208,7 +1214,7 @@ export class HomePage {
     });
 
     AdMob.addListener(RewardAdPluginEvents.FailedToLoad, (error: AdMobError) => {
-      if(this.ads_control["interitial_ad"]){
+      if(this.ads_control["interitial_ad"] && !this.isCustomAdPopupOpen){
         this.interstitial()
       }
     });
@@ -1223,6 +1229,158 @@ export class HomePage {
     };
     await AdMob.prepareRewardVideoAd(options);
     const rewardItem = await AdMob.showRewardVideoAd();
+  }
+
+  getCustomAdDelay() {
+    const db = getDatabase();
+    const customAdRef = ref(db);
+    get(child(customAdRef, "appInfo/custom_ad/delayTime")).then(async (snapshot) => {
+      if (snapshot.exists()) {
+        const delayTime = snapshot.val();
+        // Use delay time from Firebase (in milliseconds)
+        this.customAdDelay = delayTime || 10000; // Default to 10 seconds if invalid
+      }
+      // Call getCustomAd after the configured delay
+      setTimeout(() => {
+        this.getCustomAd()
+      }, this.customAdDelay);
+    }).catch((error) => {
+      console.error('Error getting custom ad delay:', error);
+      // Use default delay if error occurs
+      setTimeout(() => {
+        this.getCustomAd()
+      }, this.customAdDelay);
+    });
+  }
+
+  async getCustomAd() {
+    const db = getDatabase();
+    const customAdRef = ref(db);
+    get(child(customAdRef, "appInfo/custom_ad")).then(async (snapshot) => {
+      if (snapshot.exists()) {
+        const adData = snapshot.val();
+        // Check if ad should be shown
+        if (adData.show && adData.imageUrl) {
+          // Check if daily limit check is enabled
+          const enableDailyLimit = adData.enableDailyLimit !== false; // Default to true if not specified
+          let canShow = true;
+          
+          if (enableDailyLimit) {
+            // Check daily show limit only if enabled
+            canShow = await this.canShowCustomAd(adData.maxShowsPerDay || 1);
+          }
+          
+          if (canShow) {
+            this.customAdData = adData;
+            // Record that ad was shown (only if limit check is enabled)
+            if (enableDailyLimit) {
+              await this.recordCustomAdShow();
+            }
+            // Show the popup
+            await this.showCustomAdPopup();
+          }
+        }
+      }
+    }).catch((error) => {
+      console.error('Error getting custom ad:', error);
+    });
+  }
+
+  async canShowCustomAd(maxShowsPerDay: number): Promise<boolean> {
+    try {
+      // Get today's date string (YYYY-MM-DD)
+      const today = new Date().toISOString().split('T')[0];
+      
+      // Get stored show timestamps
+      const storedShows = await Preferences.get({ key: 'custom_ad_shows' });
+      let shows: any = {};
+      
+      if (storedShows.value) {
+        shows = JSON.parse(storedShows.value);
+      }
+      
+      // Filter out old dates (not today)
+      const todayShows = shows[today] || [];
+      
+      // Check if limit reached
+      return todayShows.length < maxShowsPerDay;
+    } catch (error) {
+      console.error('Error checking custom ad show limit:', error);
+      return true; // Allow show on error
+    }
+  }
+
+  async recordCustomAdShow() {
+    try {
+      // Get today's date string (YYYY-MM-DD)
+      const today = new Date().toISOString().split('T')[0];
+      const now = new Date().toISOString();
+      
+      // Get stored show timestamps
+      const storedShows = await Preferences.get({ key: 'custom_ad_shows' });
+      let shows: any = {};
+      
+      if (storedShows.value) {
+        shows = JSON.parse(storedShows.value);
+      }
+      
+      // Initialize today's array if it doesn't exist
+      if (!shows[today]) {
+        shows[today] = [];
+      }
+      
+      // Add current timestamp
+      shows[today].push(now);
+      
+      // Clean up old dates (keep only last 7 days to avoid storage bloat)
+      const sevenDaysAgo = new Date();
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+      
+      Object.keys(shows).forEach(date => {
+        if (new Date(date) < sevenDaysAgo) {
+          delete shows[date];
+        }
+      });
+      
+      // Store updated shows
+      await Preferences.set({
+        key: 'custom_ad_shows',
+        value: JSON.stringify(shows)
+      });
+    } catch (error) {
+      console.error('Error recording custom ad show:', error);
+    }
+  }
+
+  async showCustomAdPopup() {
+    if (!this.customAdData) return;
+
+    // Set flag to prevent interstitial ads while popup is open
+    this.isCustomAdPopupOpen = true;
+
+    // Hide banner ad when custom ad popup opens
+    await this.hideBannerAd();
+
+    const modal = await this.modalController.create({
+      component: CustomAdModalComponent,
+      componentProps: {
+        adData: this.customAdData,
+        isDarkMode: this.mode
+      },
+      cssClass: 'custom-ad-modal',
+      backdropDismiss: true,
+      showBackdrop: true
+    });
+
+    await modal.present();
+
+    // Resume banner ad when modal is dismissed
+    const { data } = await modal.onDidDismiss();
+    
+    // Clear flag to allow interstitial ads again
+    this.isCustomAdPopupOpen = false;
+    
+    await this.resumeBannerAd();
   }
 
 }

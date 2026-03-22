@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
+import { CustomAdModalComponent } from './custom-ad-modal.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { NgApexchartsModule } from 'ng-apexcharts';
@@ -17,6 +18,6 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     NgApexchartsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  declarations: [HomePage]
+  declarations: [HomePage, CustomAdModalComponent]
 })
 export class HomePageModule {}

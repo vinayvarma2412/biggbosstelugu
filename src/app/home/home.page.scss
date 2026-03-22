@@ -517,3 +517,16 @@ $box-shadow2: ();
     margin-left: 80%;
   }
 }
+
+// Custom Ad Modal Styles
+.custom-ad-modal {
+  --width: 90%;
+  --max-width: 500px;
+  --height: auto;
+  --max-height: 90vh;
+  --border-radius: 15px;
+  
+  .modal-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

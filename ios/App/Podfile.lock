@@ -73,21 +73,21 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/status-bar"
 
 SPEC CHECKSUMS:
-  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
-  CapacitorApp: 9d53aec7101f7b030a950c5bdc4df8612576b279
-  CapacitorCommunityAdmob: 59456f0c29033d710ef90ef81044ad0eeab3caf6
+  Capacitor: 69c7f687aabb8d85e543497411e40638b5cc08c0
+  CapacitorApp: 30145f2ea2311e4f3744472119ec87d2ddf4c0a7
+  CapacitorCommunityAdmob: db79f3ff8ac2ce8a8f92c67431c91e5f6fda64b4
   CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
-  CapacitorFilesystem: fa3099b3c3aa43a1b51362d0c999301ab1a9a752
-  CapacitorHaptics: 9ebc9363f0e9b8eb4295088a0b474530acf1859b
-  CapacitorKeyboard: 5f32a712adf41e07a61caafb82cf29fb6d8ba123
-  CapacitorNetwork: 5c94acfdddc22043f2ffaff224ce9b4aa5a179f0
-  CapacitorPreferences: 72909b165bc7807103778ddbb86d5d8ce06abf71
-  CapacitorPushNotifications: ccd797926c030acad3d5498ef452c735c90a2c89
-  CapacitorShare: 591ae4693d85686ceb590db8e8b44aa014ec6490
-  CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
+  CapacitorFilesystem: 59270a63c60836248812671aa3b15df673fbaf74
+  CapacitorHaptics: 0cea833e6a8bf489dd6acaaebf6d953b90086c59
+  CapacitorKeyboard: f38d730356be5569d72eb87ad9c8166947728c36
+  CapacitorNetwork: 7ff188197e880d8485f280492b54d3202e9f3a61
+  CapacitorPreferences: 97d529423bb7c1196455e9a1b6dd1074625c78bd
+  CapacitorPushNotifications: 88f40c5f06dfe54f2c0619173e11ecbff8661a2f
+  CapacitorShare: 5d49f1b220e991372b4d5d34be9a6080a042bae4
+  CapacitorStatusBar: 129c68650d3f950e080e8e7e03d69c3b361dbe52
   Google-Mobile-Ads-SDK: 301a16c461c331ba34ff4dab40a22ab7c147af61
   GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
 
 PODFILE CHECKSUM: 273ea99e09e115318c57161fb57350a84f4ced0c
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
